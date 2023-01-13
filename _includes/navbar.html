@@ -1,0 +1,38 @@
+<header>
+      <nav class="bg-gray-900 shadow py-2 fixed right-0 left-0 z-10">
+        <div class="px-10 lg:px-48 xxl:px-64 sm:flex sm:flex-wrap sm:bg-gray-900 sm:justify-between sm:items-center">
+          <div class="">
+            <div class="flex flex-wrap justify-between items-center">
+              <!-- Left -->
+              <div class="text-white">
+                <!-- <a class="text-2xl font-semibold" href="/">MMZ</a> -->
+                <a href="/"><img class="w-8" src="/assets/images/logos/m.png"></a>
+              </div>
+
+              <!-- Hamburguer -->
+              <div class="sm:hidden">
+                <button type="button" class="text-white" id="nav-toggle">
+                  <svg class="h-6 w-6 fill-current text-{{include.primary-color}}" viewBox="0 0 24 24">
+                    <path id="hamburger" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                    <path id="cross" fill-rule="evenodd" class="hidden" d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
+                  </svg>
+                </button>
+              </div>
+
+            </div>
+          </div>
+          
+          <div id="nav-menu" class="hidden font-semibold sm:block sm:w-auto sm:flex sm:flex-wrap sm:bg-gray-900 text-white">
+            <a class="block text-center py-2 sm:px-4" href="/about/">Sobre mi</a>
+            <a class="block text-center py-2 sm:px-4" href="/contacta/">Contacta</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header stuff, muestra de voz etc-->
+      <div class="pt-20 pb-12 text-center ">
+        <h1 class=" text-3xl sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
+        <h2 class="sm:text-xl text-center">Psicóloga.</h2>
+      </div>
+
+    </header>
