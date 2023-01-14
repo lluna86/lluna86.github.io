@@ -1,0 +1,12 @@
+---
+layout: default
+permalink: /blog/
+---
+
+{% for post in site.posts %}
+<div class="py-4">
+	<h2 class="font-bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+	<h3 class="text-sm text-gray-500">{{ post.date | date: '%B %d, %Y' }}</h3>
+	<div class="pt-4">{{ post.content | truncate: 120}}</div>
+</div>
+{% endfor %}
