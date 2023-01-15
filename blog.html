@@ -3,10 +3,15 @@ layout: default
 permalink: /blog/
 ---
 
-{% for post in site.posts %}
-<div class="py-4">
-	<h2 class="font-bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-	<h3 class="text-sm text-gray-500">{{ post.date | date: '%B %d, %Y' }}</h3>
-	<div class="pt-4">{{ post.content | truncate: 120}}</div>
+<h1 class="text-3xl pt-20">Blog</h1>
+<p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, arcu vitae rutrum volutpat, dolor orci fermentum turpis, rutrum tincidunt tortor turpis nec est. Fusce posuere lacinia arcu, bibendum ultrices sem facilisis ac.</p>
+
+<div class="pt-4">
+	{% for post in site.posts %}
+	<div class="py-4">
+		<h2 class="font-bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<h3 class="text-sm text-gray-500">{{ post.date | date: '%B %d, %Y' }}</h3>
+		<div class="pt-4">{{ post.content | truncate: 120}}</div>
+	</div>
+	{% endfor %}
 </div>
-{% endfor %}

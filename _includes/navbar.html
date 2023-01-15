@@ -27,24 +27,29 @@
             <a class="block text-center py-2 sm:px-4" href="/">Home</a>
             <a class="block text-center py-2 sm:px-4" href="/">Services</a>
             <a class="block text-center py-2 sm:px-4" href="/">About me</a>
-            <a class="block text-center py-2 sm:px-4" href="/">Blog</a>
-            <a class="block text-center font-semibold py-2 sm:px-4" href="/contact  /">Book a free consultation</a>
-            <a class="block text-center py-2 sm:px-4" href="//">FAQ</a>
+            <a class="block text-center py-2 sm:px-4" href="/blog/">Blog</a>
+            <a class="block text-center font-semibold py-2 sm:px-4" href="/contact/">Book a free consultation</a>
+            <a class="block text-center py-2 sm:px-4" href="/">FAQ</a>
           </div>
         </div>
       </nav>
-
+      
+      {% if page.title == "Home" %}
       <div class="relative flex items-center justify-center  mb-12 overflow-hidden h-screen">
        <!-- Header stuff, muestra de voz etc-->
-      <div class="relative pt-32 pb-20 text-center relative z-30 p-5 text-2xl text-white">
-        <h1 class=" text-3xl sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
-        <h2 class="sm:text-xl text-center">Clinical & Counselling Psychology</h2>
+     
+        <div class="relative pt-32 pb-20 text-center relative z-30 p-5 text-2xl text-white">
+          <h1 class=" text-3xl sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
+          <h2 class="sm:text-xl text-center">Clinical & Counselling Psychology</h2>
+          <a href="/contact/"><button class="mt-4 p-4 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">Book a consultation</button></a>
+        </div>
+        <video autoplay muted loop playsinline class="absolute z-10 w-auto min-w-full min-h-full max-w-none" id="myVideo">
+          <source src="/assets/video/home.mp4" type="video/mp4">
+        </video>
       </div>
+      {% endif %}
 
-      <video autoplay muted loop playsinline class="absolute z-10 w-auto min-w-full min-h-full max-w-none" id="myVideo">
-        <source src="/assets/video/home.mp4" type="video/mp4">
-      </video>
-    </div>
+
      
 
     </header>
