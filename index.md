@@ -29,7 +29,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
             <a href="servicios/apoyo-a-la-crianza"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Apoyo a la crianza</div></a>
             <a href="servicios/apoyo-a-familiares-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="text-terros-clar">✔</span> Apoyo a familiares de niños con NNEE</div></a>
-            <a href="servicios/asesoramiento-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Asesoramientos y talleres</div></a>
+            <a href="servicios/asesoramientos-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Asesoramientos y talleres</div></a>
         </div>
     </div>
 </div>
