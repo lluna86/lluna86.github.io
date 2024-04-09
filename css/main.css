@@ -13,6 +13,10 @@ p{
   @apply py-2;
 }
 
+b {
+  @apply text-terros;
+}
+
 
 
 

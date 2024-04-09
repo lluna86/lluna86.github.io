@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html class="font-lato leading-7 antialiased">
-  
+<html>
+
   {% include head.html %}
 
   <body>
 
     {% include navbar.html %}
 
-    
+    <div class="px-8 lg:px-48 xxl:px-64 bg-gray-100 py-8">
+     <h1 class="pb-8">{{ page.title }}</h1>
       {{ content }}
-   
+    </div>
 
     {% include footer.html %}
+
+
   </body>
 </html>
