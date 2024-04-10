@@ -49,7 +49,7 @@ permalink: /servicios/
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/macbook.jpg">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="text-justify">¿Has considerado la posibilidad de recibir sesiones de psicología en línea? Ya sea por la comodidad de estar en casa, la flexibilidad que ofrece el no tenerte que desplazar, o la conveniencia horaria, la terapia online se ha convertido en una herramienta valiosa y útil para el trabajo psicológico.</b></p>
+            <p class="text-justify">¿Has considerado la posibilidad de recibir sesiones de psicología en línea? Ya sea por la comodidad de estar en casa, la flexibilidad que ofrece el no tenerte que desplazar, o la conveniencia horaria, la terapia online se ha convertido en una herramienta valiosa y útil para el trabajo psicológico.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
