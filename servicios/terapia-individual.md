@@ -4,7 +4,7 @@ title: "Terapia individual"
 permalink: /servicios/terapia-individual
 ---
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/nenufar.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/nenufar.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <div class="text-white text-4xl font-bold text-center">
             <h1 class="font-quicksand text-3xl text-gray-100 sm:text-5xl font-semibold text-center">Terapia individual</h1>
         </div>

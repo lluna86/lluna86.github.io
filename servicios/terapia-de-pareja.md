@@ -5,7 +5,7 @@ permalink: /servicios/terapia-de-pareja
 ---
 
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/jarros.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/jarros.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <div class="text-white text-4xl font-bold text-center">
             <h1 class="font-quicksand text-3xl text-gray-800 sm:text-5xl font-semibold text-center">Terapia de pareja</h1>
         </div>

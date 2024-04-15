@@ -4,7 +4,7 @@ permalink: /servicios/apoyo-a-la-crianza/
 title: "Sesiones de apoyo a la crianza"
 ---
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/flores-azules.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/flores-azules.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <div class="text-white text-4xl font-bold text-center">
             <h1 class="font-quicksand text-3xl text-gray-800 sm:text-5xl font-semibold text-center">Sesiones de apoyo a la crianza</h1>
         </div>

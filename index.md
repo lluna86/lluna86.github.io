@@ -5,7 +5,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
 ---
 
 <div class="flex flex-wrap">
-	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.jpg')] sm:bg-[url('/assets/images/jar.jpg')] w-full h-screen flex justify-center items-center">
+	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.webp')] sm:bg-[url('/assets/images/jar.webp')] w-full h-screen flex justify-center items-center">
 	    <div class="text-white text-3xl font-bold text-center">
           <h1 class="font-quicksand text-3xl text-gray-800 sm:text-white sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
           <h2 class="sm:text-xl text-center text-gray-800 sm:text-white">Psicóloga y psicoterapeuta</h2>
@@ -40,7 +40,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
     <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">CONSIDERO UN PRIVILEGIO ACOMPAÑAR A LAS PERSONAS CON LAS QUE TRABAJO.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0">
-            <img class="pb-4 sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.png" alt="Berta">
+            <img class="pb-4 sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
             <p class="text-center sm:text-justify text-sm sm:text-base">Soy Licenciada en Psicología por la Universidad de Barcelona. Dispongo de la certificación de Psicóloga General Sanitaria reconocida por la Generalitat de Catalunya, título que me habilita como profesional para poder ejercer la psicología clínica en el sector privado.</p>

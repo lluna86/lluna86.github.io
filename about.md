@@ -4,7 +4,7 @@ title: Sobre mí
 permalink: /sobre-mi/
 ---
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/about.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/about.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <h1 class="text-gray-800 text-3xl sm:text-5xl font-quicksand font-semibold text-center">Sobre mí</h1>
     </div>
 </div>
@@ -19,7 +19,7 @@ permalink: /sobre-mi/
             <p class="font-bold text-terros text-center text-lg pt-4">Considero un privilegio acompañar a las personas con las que trabajo.</p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
-            <img class="w-10/12 rounded-full" src="/assets/images/berta.png" alt="Imagen de Berta">
+            <img class="w-10/12 rounded-full" src="/assets/images/berta.webp" alt="Imagen de Berta">
         </div>
     </div>
     <div class="py-8 lg:px-64 xxl:px-64">
@@ -32,23 +32,23 @@ permalink: /sobre-mi/
         </div>
         <div class="flex flex-wrap justify-center items-center pt-8">
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.png" alt="Universidad de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.webp" alt="Universidad de Barcelona">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.png" alt="Universidad Autónoma de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.webp" alt="Universidad Autónoma de Barcelona">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.jpg" alt="Universidad Ramon Llull">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.webp" alt="Universidad Ramon Llull">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.png" alt="Centro Dendros">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.webp" alt="Centro Dendros">
         </div>
     </div>
     </div>
     <div class="pt-12 bg-planta-light flex flex-wrap pb-12 lg:px-64 xxl:px-64">
         <h2 class="text-3xl text-center w-full">Enfoque</h2>
         <div class="flex flex-wrap">
-            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.jpg" alt="Enfoque" style="aspect-ratio: 1 / 1;">
+            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.webp" alt="Enfoque" style="aspect-ratio: 1 / 1;">
             <div class="w-full lg:w-3/4 sm:pl-4 text-justify px-8 lg:pl-8">
                 <p>Mi formación inicial se centró en la <b>Terapia Cognitivo-Conductual</b>, reconocida por su eficacia en el tratamiento de trastornos como la ansiedad y el estado de ánimo. En mi práctica actual, me guío por la <b>Terapia Integradora</b>, combinando diversas técnicas terapéuticas adaptadas a las necesidades únicas de cada persona.</p>
                 <p>Entiendo las sesiones de psicología como un proceso de <b>facilitación del cambio y el crecimiento personal</b>, donde se considera la totalidad de la persona (emociones, pensamientos, cuerpo, historia de vida, etc.) y no solamente se atiende la crisis o situación actual que ha propiciado la consulta.</p>

@@ -4,7 +4,7 @@ permalink: /servicios/terapia-online/
 title: "Terapia online"
 ---
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/macbook.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/macbook.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <div class="text-white text-4xl font-bold text-center">
             <h1 class="font-quicksand text-3xl text-gray-100 sm:text-5xl font-semibold text-center">Terapia online</h1>
         </div>

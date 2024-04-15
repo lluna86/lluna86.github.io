@@ -4,7 +4,7 @@ permalink: /servicios/asesoramientos-y-talleres/
 title: "Asesoramientos y talleres"
 ---
 <div class="flex flex-wrap">
-    <div class="bg-[url('/assets/images/plantas.jpg')] w-full h-80 bg-cover bg-center flex justify-center items-center">
+    <div class="bg-[url('/assets/images/plantas.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
         <div class="text-white text-4xl font-bold text-center">
             <h1 class="backdrop-blurfont-quicksand text-3xl text-white sm:text-5xl font-semibold text-center">Asesoramientos y talleres</h1>
         </div>

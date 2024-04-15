@@ -1001,6 +1001,46 @@ b {
   background-image: url('/assets/images/macbook.jpg');
 }
 
+.bg-\[url\(\'\/assets\/images\/jar-vertical\.webp\'\)\] {
+  background-image: url('/assets/images/jar-vertical.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/contacta\.webp\'\)\] {
+  background-image: url('/assets/images/contacta.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/planta-interior\.webp\'\)\] {
+  background-image: url('/assets/images/planta-interior.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/flores-azules\.webp\'\)\] {
+  background-image: url('/assets/images/flores-azules.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/plantas\.webp\'\)\] {
+  background-image: url('/assets/images/plantas.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/servicios\.webp\'\)\] {
+  background-image: url('/assets/images/servicios.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/jarros\.webp\'\)\] {
+  background-image: url('/assets/images/jarros.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/nenufar\.webp\'\)\] {
+  background-image: url('/assets/images/nenufar.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/macbook\.webp\'\)\] {
+  background-image: url('/assets/images/macbook.webp');
+}
+
+.bg-\[url\(\'\/assets\/images\/about\.webp\'\)\] {
+  background-image: url('/assets/images/about.webp');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1459,6 +1499,10 @@ b {
 
   .sm\:bg-\[url\(\'\/assets\/images\/jar\.jpg\'\)\] {
     background-image: url('/assets/images/jar.jpg');
+  }
+
+  .sm\:bg-\[url\(\'\/assets\/images\/jar\.webp\'\)\] {
+    background-image: url('/assets/images/jar.webp');
   }
 
   .sm\:bg-bottom {
