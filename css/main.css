@@ -17,6 +17,9 @@ b {
   @apply text-terros;
 }
 
+.transition-max-height {
+    transition: max-height 0.7s ease-in-out;
+}
 
 
 
