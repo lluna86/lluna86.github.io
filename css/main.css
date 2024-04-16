@@ -28,6 +28,15 @@ b {
 }
 
 
+.checkmark {
+    @apply text-terros-clar;
+    font-family: Arial, sans-serif; /* Usa una fuente que garantice tratar el carácter como texto */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga" 0; /* Desactiva ligaduras que podrían alterar la representación */
+}
+
 
 
 @tailwind utilities;

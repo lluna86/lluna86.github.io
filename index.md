@@ -22,14 +22,14 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
     <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">TE PROPONGO DIFERENTES FORMATOS DE SESIONES PARA ADAPTARME A TUS NECESIDADES.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="servicios/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Terapia individual</div></a>
-            <a href="servicios/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Terapia de pareja</div></a>
-            <a href="servicios/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Terapia online</div></a>
+            <a href="servicios/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✔</span> Terapia individual</div></a>
+            <a href="servicios/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✔</span> Terapia de pareja</div></a>
+            <a href="servicios/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✔</span> Terapia online</div></a>
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="servicios/apoyo-a-la-crianza"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Apoyo a la crianza</div></a>
-            <a href="servicios/apoyo-a-familiares-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="text-terros-clar">✔</span> Apoyo a familiares de niños con NNEE</div></a>
-            <a href="servicios/asesoramientos-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="text-terros-clar">✔</span> Asesoramientos y talleres</div></a>
+            <a href="servicios/apoyo-a-la-crianza"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✔</span> Apoyo a la crianza</div></a>
+            <a href="servicios/apoyo-a-familiares-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✔</span> Apoyo a familiares de niños con NNEE</div></a>
+            <a href="servicios/asesoramientos-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✔</span> Asesoramientos y talleres</div></a>
         </div>
     </div>
 </div>
