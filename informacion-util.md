@@ -13,7 +13,7 @@ permalink: /informacion-util/
 <div class="px-4 sm:px-8 md:py-12 lg:px-24 lg:py-12 xl:px-48 2xl:px-64">
 	<div id="faq" class="flex flex-col space-y-2">
 	 	<div class="faq-item">
-	    	<button class="text-justify flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="text-justify flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	     		<span class="text-xl pr-2 font-bold">¿Cómo funciona la terapia?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -24,7 +24,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 	  	<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Qué es la psicología integradora?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -35,7 +35,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 	  	<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Cada cuánto serán las visitas?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -46,7 +46,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Cuánto dura un proceso de psicoterapia?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -56,7 +56,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Cuál es el precio de una sesión? ¿Cuánto dura?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -67,7 +67,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Cómo funciona la política de cancelación?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -77,7 +77,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Lo que se habla en la sesión es confidencial?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -88,7 +88,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">¿Ofreces una visita gratuita?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
@@ -98,7 +98,7 @@ permalink: /informacion-util/
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
-	    	<button class="flex items-center justify-center sm:justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
+	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">Tengo más preguntas. ¿Qué puedo hacer?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
