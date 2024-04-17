@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /informacion-util/
+metadescription: "Resolución a preguntas frecuentes y forma de contacto en caso de haber otras cuestiones específicas."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/jar.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

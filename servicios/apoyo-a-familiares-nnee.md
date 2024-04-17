@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /servicios/apoyo-a-familiares-nnee/
+metadescription: "Sesiones con herramientas específicas y estrategias adaptadas a las necesidades del niño o niña frente a un diagnóstico de necesidades especiales."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/planta-interior.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

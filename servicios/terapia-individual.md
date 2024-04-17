@@ -2,6 +2,7 @@
 layout: default
 title: "Terapia individual"
 permalink: /servicios/terapia-individual
+metadescription: "La decisión de iniciar un proceso de terapia individual es una muestra de valentía, voluntad de cambio y búsqueda de crecimiento personal."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/nenufar.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

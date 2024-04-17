@@ -2,6 +2,7 @@
 layout: default
 permalink: /servicios/apoyo-a-la-crianza/
 title: "Sesiones de apoyo a la crianza"
+metadescription: "En las sesiones enfocadas a familias trabajaremos según los objetivos familiares y necesidades del niño o niña para lograr un mayor bienestar."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/flores-azules.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

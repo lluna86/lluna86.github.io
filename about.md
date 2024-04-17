@@ -2,6 +2,7 @@
 layout: default
 title: Sobre mí
 permalink: /sobre-mi/
+metadescription: "A través de mis años de formación descubrí que lo que más me apasiona de esta profesión es la oportunidad de mejorar el bienestar de las personas."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/about.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

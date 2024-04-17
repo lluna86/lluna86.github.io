@@ -2,6 +2,7 @@
 layout: default
 permalink: /servicios/terapia-online/
 title: "Terapia online"
+metadescription: "Terapia online a través de videollamada, en el momento y lugar que se prefiera, de manera cómoda y sencilla, sin necesidad de desplazarse."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/macbook.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
