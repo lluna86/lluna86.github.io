@@ -1,29 +1,27 @@
 ---
-layout: default
-title: Berta Sanfeliu - Psicóloga y psicoterapeuta
+layout: en/default
+title: Berta Sanfeliu - psychologist and Psychotherapist
 metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios de psicoterapia en Barcelona y online en castellano, catalán e inglés."
 ---
-
 <div class="flex flex-wrap">
 	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.webp')] sm:bg-[url('/assets/images/jar.webp')] w-full h-screen flex justify-center items-center">
 	    <div class="text-white text-3xl font-bold text-center">
           <h1 class="font-quicksand text-3xl text-gray-800 sm:text-white sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
-          <h2 class="sm:text-xl text-center text-gray-800 sm:text-white">Psicóloga y psicoterapeuta</h2>
-          <a href="https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."><button class="mt-4 px-6 py-2 text-2xl text-white bg-planta hover:bg-planta-fosc rounded">Contacta</button></a>
+          <h2 class="sm:text-xl text-center text-gray-800 sm:text-white">Psychologist and Psychotherapist</h2>
+          <a href="https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."><button class="mt-4 px-6 py-2 text-2xl text-white bg-planta hover:bg-planta-fosc rounded">Contact</button></a>
 	    </div>
 	</div>
 </div>
 
 
-
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl sm:text-3xl text-center">Cómo te puedo ayudar</h2>
+    <h2 class="text-3xl sm:text-3xl text-center">How I can help you</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">TE PROPONGO DIFERENTES FORMATOS DE SESIONES PARA ADAPTARME A TUS NECESIDADES.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="servicios/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Terapia individual</div></a>
-            <a href="servicios/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Terapia de pareja</div></a>
+            <a href="services/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Terapia individual</div></a>
+            <a href="services/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Terapia de pareja</div></a>
             <a href="servicios/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Terapia online</div></a>
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
@@ -125,7 +123,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
         </div>
     </div>
     <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-            {% include contact-form.html %}
+            {% include en/contact-form.html %}
     </div>
 </div>
 
