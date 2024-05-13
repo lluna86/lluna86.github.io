@@ -1,7 +1,7 @@
 ---
 layout: en/default
 permalink: /en/faq/
-metadescription: "Resolución a preguntas frecuentes y forma de contacto en caso de haber otras cuestiones específicas."
+metadescription: "Resolution to frequently asked questions and contact information in case there are other specific questions."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/jar.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
