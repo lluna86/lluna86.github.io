@@ -26,85 +26,85 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	  	<hr>
 	  	<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Qué es la psicología integradora?</span>
+	      		<span class="text-xl pr-2 font-bold">What is Integrative Psychotherapy?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">La Psicoterapia Integradora surge de la limitación que supone abordar las particularidades de cada caso desde una única teoría psicológica. Así pues, este enfoque se nutre de diversas escuelas de psicología y técnicas psicoterapéuticas con el fin de adaptar y personalizar el tratamiento a las necesidades específicas de cada persona.</p>
-	      		<p class="text-gray-600">Este enfoque psicoterapéutico reúne conocimientos de los modelos cognitivo-conductuales, la neurociencia, la psicología evolutiva, los modelos humanísticos-existenciales, constructivistas, psicodinámicos y las aportaciones de la terapia dialectal o breve estratégica, entre otros.</p>
+	      		<p class="text-gray-600">Integrative Psychotherapy arises from the limitation of addressing the particularities of each case from a single psychological theory. Therefore, this approach incorporates various schools of psychology and psychotherapeutic techniques in order to adapt and personalize treatment to the specific needs of each individual.</p>
+	      		<p class="text-gray-600">This psychotherapeutic approach brings together knowledge from cognitive-behavioral models, neuroscience, evolutionary psychology, humanistic-existential models, constructivist, psychodynamic models, and contributions from dialectical or brief strategic therapy, amongst others.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 	  	<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Cada cuánto serán las visitas?</span>
+	      		<span class="text-xl pr-2 font-bold">How often will the visits be?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Generalmente, al principio, las sesiones se llevan a cabo con mayor frecuencia. La recomendación inicial es iniciar sesiones de forma semanal. Sin embargo, al final, serás tú quien decida la frecuencia inicial y el seguimiento de las sesiones.</p>
-	      		<p class="text-gray-600">A medida que se empiecen a consolidar los cambios que mejoren tu bienestar, se suele recomendar espaciar las visitas, por ejemplo, cada quince días y más adelante cada mes, para hacer un seguimiento y asegurarnos de que los cambios perduran en el tiempo.</p>
+	      		<p class="text-gray-600">Generally, at the beginning, sessions take place more frequently. The initial recommendation is to start with weekly sessions. However, in the end, it will be up to you to decide the initial frequency and follow-up of the sessions.</p>
+	      		<p class="text-gray-600">As changes that improve your well-being begin to happen, it is usually recommended to space out the visits, for example, every other week, and later every month, to monitor and ensure that the changes last over time.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Cuánto dura un proceso de psicoterapia?</span>
+	      		<span class="text-xl pr-2 font-bold">How long does a psychotherapy process last?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">En psicoterapia el paciente determina cuánto tiempo quiere que dure su proceso. El tiempo dependerá totalmente de cada persona y de los objetivos de la terapia, aunque buscaremos trabajar de manera eficaz y avanzar en el menor tiempo posible.</p>
+	      		<p class="text-gray-600">In psychotherapy, the patient determines how long they want their process to last. The time will depend entirely on each person and the goals of therapy, although we will seek to work efficiently and progress in the shortest time possible.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Cuál es el precio de una sesión? ¿Cuánto dura?</span>
+	      		<span class="text-xl pr-2 font-bold">What is the price of a session? How long does it last?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Mis tarifas son de 60 euros la hora, tanto para las visitas presenciales como las online y 70 euros la sesión de pareja.</p>
-	      		<p class="text-gray-600">Las sesiones duran aproximadamente una hora; una hora y cuarto en el caso de terapia de pareja. </p>
+	      		<p class="text-gray-600">My fees are 60 euros per hour, both for in-person and online visits, and 70 euros for couples' sessions.</p>
+	      		<p class="text-gray-600">Sessions last approximately one hour; an hour and a quarter in the case of couples therapy.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Cómo funciona la política de cancelación?</span>
+	      		<span class="text-xl pr-2 font-bold">How does the cancellation policy work?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Podrás cambiar la fecha o anular la sesión con una antelación mínima de 24h. Anulaciones o cambios a última hora de manera repetida podrán implicar el abono de parte de la sesión, según cada caso.</p>
+	      		<p class="text-gray-600">You can change the date or cancel the session with a minimum notice of 24 hours. Last-minute cancellations or changes may entail payment for part of the session, depending on each case.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Lo que se habla en la sesión es confidencial?</span>
+	      		<span class="text-xl pr-2 font-bold">Is what is discussed in the session confidential?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">La confidencialidad es una característica esencial de la psicoterapia. Como psicólogos, estamos legal y éticamente obligados a preservar el secreto profesional, proporcionando así una garantía absoluta de confidencialidad.</p>
-	      		<p class="text-gray-600">Como parte integral de este compromiso, además de mantener la privacidad de los casos, se incluye el poder revisarlos con una supervisora clínica, como parte de mi compromiso para asegurar la efectividad de mis intervenciones.</p>
+	      		<p class="text-gray-600">Confidentiality is an essential characteristic of psychotherapy. As psychologists, we are legally and ethically obligated to preserve professional secrecy, thus providing an absolute guarantee of confidentiality.</p>
+	      		<p class="text-gray-600">As an integral part of this commitment, in addition to maintaining the privacy of cases, the ability to review them with a clinical supervisor is included as part of my commitment to ensuring the effectiveness of my interventions.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Ofreces una visita gratuita?</span>
+	      		<span class="text-xl pr-2 font-bold">Do you offer a free consultation</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Si estás interesado en iniciar sesiones de psicología conmigo, puedes solicitar una llamada telefónica gratuita de unos 20 minutos por <a class="link" href="/contacta">cualquier medio de contacto.</a></p>
+	      		<p class="text-gray-600">If you are interested in starting psychology sessions with me, you can request a free 20-minute phone call through <a class="link" href="/contacta">any contact method.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">Tengo más preguntas. ¿Qué puedo hacer?</span>
+	      		<span class="text-xl pr-2 font-bold">I have more questions. What can I do?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Si tienes más preguntas puedes contactar conmigo <a class="link" href="/contacta">desde aquí.</a></p>
+	      		<p class="text-gray-600">If you have more questions, you can send me an email at psicologia@bertasanfeliu.com or fill out the <a class="link" href="/contacta">following form.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>
