@@ -15,12 +15,12 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	<div id="faq" class="flex flex-col space-y-2">
 	 	<div class="faq-item">
 	    	<button class="text-justify flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	     		<span class="text-xl pr-2 font-bold">¿Cómo funciona la terapia?</span>
+	     		<span class="text-xl pr-2 font-bold">How does therapy work?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Desde el principio estableceremos unos objetivos con los que empezar a trabajar. Puede que estos objetivos vayan cambiando a medida que avance el proceso terapéutico. En ocasiones te sugeriré actividades entre sesiones para favorecer el trabajo reflexivo.</p>
-	      		<p class="text-gray-600">Es importante tener en cuenta que la psicoterapia no pretende ser una solución rápida, puede tener momentos intensos y requerirá de ti un esfuerzo personal. Al fin y al cabo, no es solo una inversión económica y de tiempo, es también una inversión en tu futuro.</p>
+	      		<p class="text-gray-600">At the beginning we will start establishing your goals. These goals may change as the therapeutic process progresses. Sometimes I will suggest activities between sessions to promote reflective work.</p>
+	      		<p class="text-gray-600">It is important to consider that psychotherapy is not intended to be a quick fix. It may have intense moments and will require personal effort from you. Ultimately, it's not just an economic and time investment, it's also an investment in your future.</p>
 	    	</div>
 	  	</div>
 	  	<hr>
