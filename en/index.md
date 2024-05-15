@@ -47,7 +47,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
 </div>
 
 <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-gray-100 py-6 sm:py-12">
-    <h2 class="text-3xl sm:text-3xl text-center">Sesion modalities</h2>
+    <h2 class="text-3xl sm:text-3xl text-center">Session modalities</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
     <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">I OFFER YOU A FRIENDLY AND SAFE SPACE TO WORK TOGETHER AND ACHIEVE YOUR GOALS.</h3>
     <div class="flex flex-wrap justify-center items-center">
@@ -76,7 +76,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
             <div class="shadow rounded-full bg-planta-clar p-8">
                 {% include svg/hands.md %}
             </div>
-            <h2 class="text-xl mt-4">Formatss</h2>
+            <h2 class="text-xl mt-4">Formats</h2>
             <p class="text-center sm:text-justify">Individual, couples or group sessions</p>
         </div>
     </div>
