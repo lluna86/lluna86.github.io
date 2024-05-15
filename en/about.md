@@ -15,7 +15,7 @@ metadescription: "Through my years of training, I discovered that what I am most
         <div class="w-full lg:w-2/3 px-8 sm:px-0 sm:pr-12">
             <p>My interest in psychology began when I studied a subject on the fundamental concepts of this discipline during my A-levels.</p>
             <p>During my university studies, I gained essential theoretical knowledge. However, it was through training and work experiences later on that I consolidated the foundations of my regular clinical practice.</p>
-            <p>I discovered that what I am most passionate about in this profession is the connection with people and the opportunity to <b>contribute to their well-being.</b></p>
+            <p>I discovered that what I am most passionate about in this profession is the <b>connection with people<b> and the opportunity to <b>contribute to their well-being.</b></p>
             <p>I am a cheerful, active, empathetic, and sociable person. I enjoy dancing, morning walks, and contemplating the sea. I also find pleasure in a homemade meal or a coffee in good company.</p>
             <p class="font-bold text-terros text-center text-lg pt-4">I consider it a privilege to accompany the people I work with.</p>
         </div>
