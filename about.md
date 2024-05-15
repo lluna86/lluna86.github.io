@@ -17,7 +17,7 @@ metadescription: "A través de mis años de formación descubrí que lo que más
             <p>Durante mis estudios universitarios, adquirí conocimientos teóricos esenciales. Sin embargo, fue a través de formaciones y experiencias laborales posteriores que consolidé las bases de mi práctica clínica habitual.</p>
             <p>Descubrí que lo que más me apasiona de esta profesión es el <b>vínculo con las personas</b> y la posibilidad de <b>contribuir a su bienestar.</b></p>
             <p>Soy una persona alegre, activa, empática y sociable. Disfruto del baile, de caminar por la mañana y contemplar el mar. También encuentro placer en un menú casero o de un café en buena compañía.</p>
-            <p class="font-bold text-terros text-center text-lg pt-4">Considero un privilegio acompañar a las personas con las que trabajo.</p>
+            <p class="font-bold text-terros text-center text-lg pt-4"><b>Considero un privilegio acompañar a las personas con las que trabajo.</b></p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
             <img class="w-10/12 rounded-full" src="/assets/images/berta.webp" alt="Imagen de Berta">
