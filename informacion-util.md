@@ -26,7 +26,7 @@ metadescription: "Resolución a preguntas frecuentes y forma de contacto en caso
 	  	<hr>
 	  	<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">¿Qué es la psicología integradora?</span>
+	      		<span class="text-xl pr-2 font-bold">¿Qué es la psicoterapia integradora?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
