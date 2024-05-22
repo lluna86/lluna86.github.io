@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Terapia individual"
-permalink: /servicios/terapia-individual
+permalink: /en/services/terapia-individual
 metadescription: "La decisión de iniciar un proceso de terapia individual es una muestra de valentía, voluntad de cambio y búsqueda de crecimiento personal."
 ---
 <div class="flex flex-wrap">

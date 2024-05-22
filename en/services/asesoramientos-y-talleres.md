@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /services/consultations-and-workshops/
+permalink: /en/services/consultations-and-workshops/
 title: "Consultations and workshops"
 ---
 <div class="flex flex-wrap">

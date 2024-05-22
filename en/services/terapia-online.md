@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /servicios/terapia-online/
+permalink: /en/services/terapia-online/
 title: "Terapia online"
 metadescription: "Terapia online a través de videollamada, en el momento y lugar que se prefiera, de manera cómoda y sencilla, sin necesidad de desplazarse."
 ---

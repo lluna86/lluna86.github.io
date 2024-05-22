@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /services/parenting-support/
+permalink: /en/services/parenting-support/
 title: "Parenting Support"
 metadescription: "In the family sessions, we will work according to the family's goals and the child's needs to achieve greater well-being."
 ---

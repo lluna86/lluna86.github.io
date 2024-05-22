@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Psychological Services
-permalink: /services/
+permalink: /en/services/
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/servicios.webp')] w-full h-80 bg-cover bg-bottom flex justify-center items-center">
