@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Servicios psicológicos
-permalink: /servicios/
+title: Psychological Services
+permalink: /services/
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/servicios.webp')] w-full h-80 bg-cover bg-bottom flex justify-center items-center">
@@ -10,97 +10,97 @@ permalink: /servicios/
 </div>
 
 <div id="terapia_individual" class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl text-center">Terapia individual</h2>
+    <h2 class="text-3xl text-center">Individual Therapy</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/nenufar.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4">
-            <p class="text-justify">¿Buscas resolver problemas emocionales o personales que afectan tu vida diaria? Buscar apoyo para gestionar tus emociones, querer mejorar tu bienestar mental y alcanzar un mayor equilibrio en tu vida son muestra de valentía y deseo de crecimiento personal.</p>
+            <p class="text-justify">Are you looking to address emotional or personal challenges that are affecting your daily life? Seeking support to manage your emotions, improve your mental well-being, and achieve greater balance in your life are signs of courage and a desire for personal growth.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="terapia-individual"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="individual-therapy"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 
 <div id="terapia_de_pareja" class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-planta-light">
-    <h2 class="text-3xl text-center">Terapia de pareja</h2>
+    <h2 class="text-3xl text-center">Couples Therapy</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 mb-2">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/jarros.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="text-justify">¿Sientes que algo no va bien en tu relación de pareja? ¿Tenéis las mismas discusiones una y otra vez sin conseguir salir del círculo negativo? ¿Estás cansada/o de intentar cambios en tu relación de pareja sin éxito? Permíteme ayudarte a salir del bucle y encontrar soluciones.</p>
+            <p class="text-justify">Do you feel that something is not right in your relationship? Are you having the same arguments over and over again without being able to break the negative cycle? Are you tired of trying to make changes in your relationship without success? Let me help you break the loop and find solutions.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="terapia-de-pareja"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="couples-terapy"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl text-center">Terapia online</h2>
+    <h2 class="text-3xl text-center">Online Therapy</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/macbook.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="text-justify">¿Has considerado la posibilidad de recibir sesiones de psicología en línea? Ya sea por la comodidad de estar en casa, la flexibilidad que ofrece el no tenerte que desplazar, o la conveniencia horaria, la terapia online se ha convertido en una herramienta valiosa y útil para el trabajo psicológico.</p>
+            <p class="text-justify">Have you considered the possibility of receiving online psychology sessions? Whether for the convenience of being at home, the flexibility of not having to travel, or the convenient scheduling, online therapy has become a valuable and useful tool for psychological work.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="terapia-online/"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="online-therapy/"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 
 <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-    <h2 class="text-3xl text-center">Sesiones de apoyo a la crianza</h2>
+    <h2 class="text-3xl text-center">Parenting Support</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/flores-azules.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="w-full">¿No sabes cómo jugar o relacionarte con tu hijo/a? ¿Sientes que los conflictos en casa son frecuentes? ¿Te preocupa algún aspecto en concreto que afecta a vuestra relación familiar? La terapia de apoyo a la crianza ofrece orientación y recursos para abordar tus preocupaciones como progenitor. Obtén herramientas prácticas y estrategias efectivas para fortalecer el vínculo con tus hijos y mejorar el ambiente familiar.</p>
+            <p class="w-full">Don't know how to play or interact with your child? Do you have frequent conflicts at home? Are you worried about a specific aspect that is affecting your relationship? Parenting support therapy offers guidance and resources to address your concerns as a parent. Gain practical tools and effective strategies to strengthen the bond with your children and improve the family environment.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="apoyo-a-la-crianza"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="parenting-support"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl text-center">Sesiones de apoyo a familiares de niños con NNEE</h2>
+    <h2 class="text-3xl text-center">Support for family members of children with special needs</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/planta-interior.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="w-full">¿Tu hijo/a tiene necesidades especiales y necesitas ayuda? ¿No sabes cómo ayudarle? Obtén herramientas específicas y estrategias adaptadas para abordar los desafíos únicos a los que os enfrentáis como familia.</p>
+            <p class="w-full">Does your child have special needs and you need help? Unsure how to support them? Gain specific tools and tailored strategies to address the unique challenges your family faces.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="apoyo-a-familiares-nnee/"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="support-for-family-members-of-children-with-special-needs/"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 
 <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-    <h2 class="text-3xl text-center">Asesoramientos y talleres</h2>
+    <h2 class="text-3xl text-center">Consultations and workshops</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/plantas.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="w-full">¿Estás buscando asesoramiento por parte de un psicólogo para tu guardería o escuela? ¿Querrías montar un taller para madres y padres sobre alguna temática relacionada con la psicología? Permíteme ofrecerte ideas y opciones para lograr lo que estás buscando.</p>
+            <p class="w-full">Are you seeking guidance from a psychologist for your nursery or school? Would you like to set up a workshop for parents on a topic related to psychology? Let me offer you ideas and options to achieve what you're looking for.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="asesoramientos-y-talleres"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Más información</button></a>
+        <a href="consultations-and-workshops"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
