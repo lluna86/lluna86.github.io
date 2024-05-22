@@ -77,7 +77,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
                 {% include svg/hands.md %}
             </div>
             <h2 class="text-xl mt-4">Formats</h2>
-            <p class="text-center sm:text-justify">Individual, couples or group sessions</p>
+            <p class="text-center sm:text-justify">Individual, couples or groups</p>
         </div>
     </div>
 </div>
