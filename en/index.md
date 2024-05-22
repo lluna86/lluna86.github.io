@@ -1,7 +1,7 @@
 ---
 layout: en/default
 title: Berta Sanfeliu - Psychologist and Psychotherapist
-metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios de psicoterapia en Barcelona y online en castellano, catalán e inglés."
+metadescription: "Psychologist with an integrative approach. Psychotherapy services in Barcelona and online in Spanish, Catalan, and English."
 ---
 <div class="flex flex-wrap">
 	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.webp')] sm:bg-[url('/assets/images/jar.webp')] w-full h-screen flex justify-center items-center">
