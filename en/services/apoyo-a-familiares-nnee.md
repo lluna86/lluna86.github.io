@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /servicios/apoyo-a-familiares-nnee/
+permalink: /services/support-for-family-members-of-children-with-special-needs/
 metadescription: "Sessions with specific tools and strategies tailored to the needs of the child facing a diagnosis of special needs."
 ---
 <div class="flex flex-wrap">
