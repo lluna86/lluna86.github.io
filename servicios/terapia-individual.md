@@ -35,7 +35,7 @@ metadescription: "La decisión de iniciar un proceso de terapia individual es un
             </ul>
             <ul class="w-full sm:w-1/2 list-none pl-8">
                 <li><span class="text-terros-clar">✔</span> Alteración del estado de ánimo, depresión, falta de motivación, insatisfacción generalizada</li>
-                <li><span class="text-terros-clar">✔</span> Duelos</li>
+                <li><span class="text-terros-clar">✔</span> Duelos y pérdidas</li>
                 <li><span class="text-terros-clar">✔</span> Dificultades en las relaciones sociales, familiares o de pareja</li>
                 <li><span class="text-terros-clar">✔</span> Dificultades con la crianza</li>
                 <li><span class="text-terros-clar">✔</span> Neurodivergencia</li>
