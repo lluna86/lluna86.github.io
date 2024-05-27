@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: en/default
 permalink: /en/services/online-therapy/
 title: "Online Therapy"
 metadescription: "Online therapy via video call, at the preferred time and location, comfortably and easily, without the need to travel."
@@ -26,5 +26,5 @@ metadescription: "Online therapy via video call, at the preferred time and locat
 </div>
 
 <div class="flex flex-wrap justify-center mt-2 mb-8">
-	<a href="/contacta"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
+	<a href="/en/contact"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
 </div>

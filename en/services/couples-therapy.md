@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: en/default
 title: "Couples Therapy"
 permalink: /en/services/couples-therapy
 metadescription: "Starting couples therapy can be difficult, but it's an act of commitment to rebuilding the relationship and the emotional well-being of both partners."
@@ -22,5 +22,5 @@ metadescription: "Starting couples therapy can be difficult, but it's an act of 
 </div>
 
 <div class="flex flex-wrap justify-center mt-2 mb-8">
-	<a href="/contacta"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
+	<a href="/en/contact"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
 </div>

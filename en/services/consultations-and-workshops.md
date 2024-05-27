@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: en/default
 permalink: /en/services/consultations-and-workshops/
 title: "Consultations and workshops"
 ---
@@ -20,5 +20,5 @@ title: "Consultations and workshops"
 </div>
 
 <div class="flex flex-wrap justify-center mt-2 mb-8">
-	<a href="/contacta"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
+	<a href="/en/contact"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
 </div>

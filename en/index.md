@@ -8,7 +8,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
 	    <div class="text-white text-3xl font-bold text-center">
           <h1 class="font-quicksand text-3xl text-gray-800 sm:text-white sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
           <h2 class="sm:text-xl text-center text-gray-800 sm:text-white">Psychologist and Psychotherapist</h2>
-          <a href="https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."><button class="mt-4 px-6 py-2 text-2xl text-white bg-planta hover:bg-planta-fosc rounded">Contact</button></a>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please."><button class="mt-4 px-6 py-2 text-2xl text-white bg-planta hover:bg-planta-fosc rounded">Contact</button></a>
 	    </div>
 	</div>
 </div>
@@ -95,7 +95,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
                 </div>
             </div>
             <div class="pt-2 font-bold w-full text-center">Email</div>
-            <div class="w-full hover:underline text-center"><a href="mailto:psicologia@bertasanfeliu.com">psicologia@bertasanfeliu.com</a></div>
+            <div class="w-full hover:underline text-center"><a target="_blank" href="mailto:psicologia@bertasanfeliu.com">psicologia@bertasanfeliu.com</a></div>
         </div>
         <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
@@ -103,29 +103,28 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
                     {% include svg/phone.md %}
                 </div>
             </div>
-            <div class="pt-2  font-bold w-full text-center">Phone</div>
-            <div class="w-full hover:underline text-center"><a href="tel:+34649806962">(+34) 649 80 69 62</a></div>
+            <div class="pt-2  font-bold w-full text-center">Teléfono</div>
+            <div class="w-full hover:underline text-center"><a target="_blank" href="tel:+34649806962">(+34) 649 80 69 62</a></div>
         </div>
         <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
             <div class="w-20 h-20 rounded-lg  justify-center items-center flex">
                 {% include svg/whatsapp.md %}
             </div>
             <div class="pt-2 font-bold w-full text-center">WhatsApp</div>
-            <div class="w-full hover:underline text-center"><a href="https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor.">(+34) 649 80 69 62</a></div>
+            <div class="w-full hover:underline text-center"><a target="_blank" href="https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please.">(+34) 649 80 69 62</a></div>
         </div>
         <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Address</div>
+            <div class="pt-2 font-bold w-full text-center">Ubicaciones</div>
             <div class="w-full text-center">Plaça de Gal·la Placídia, 10</div>
             <div class="w-full text-center">c/ Rosselló, 17</div>
         </div>
     </div>
     <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-            {% include en/contact-form.html %}
+            {% include /en/contact-form.html %}
     </div>
 </div>
-
 
 
