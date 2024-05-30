@@ -42,14 +42,14 @@ permalink: /ca/serveis/
 </div>
 
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl text-center">Teràpia en línia</h2>
+    <h2 class="text-3xl text-center">Teràpia online</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/macbook.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="text-justify">Has considerat la possibilitat de rebre sessions de psicologia en línia? Ja sigui per la comoditat d'estar a casa, la flexibilitat que ofereix no haver-te de desplaçar, o la conveniència horària, la teràpia en línia s'ha convertit en una eina valuosa i útil per al treball psicològic.</p>
+            <p class="text-justify">Has considerat la possibilitat de rebre sessions de psicologia online? Ja sigui per la comoditat d'estar a casa, la flexibilitat que ofereix no haver-te de desplaçar, o la conveniència horària, la teràpia online s'ha convertit en una eina valuosa i útil per al treball psicològic.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
@@ -97,9 +97,7 @@ permalink: /ca/serveis/
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/plantas.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="w-full">Estàs buscant assessorament per part d'un psicòleg per a la teva l
-
-lar d'infants o escola? Voldries muntar un taller per a mares i pares sobre alguna temàtica relacionada amb la psicologia? Permet-me oferir-te idees i opcions per aconseguir el que estàs buscant.</p>
+            <p class="w-full">Estàs buscant assessorament per part d'un psicòleg per a la teva llar d'infants o escola? Voldries muntar un taller per a mares i pares sobre alguna temàtica relacionada amb la psicologia? Permet-me oferir-te idees i opcions per aconseguir el que estàs buscant.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
