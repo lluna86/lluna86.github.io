@@ -1,7 +1,7 @@
 ---
 layout: ca/default
 title: Berta Sanfeliu - Psicòloga i psicoterapeuta
-metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serveis de psicoteràpia a Barcelona i en línia en castellà, català i anglès."
+metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serveis de psicoteràpia a Barcelona i online en castellà, català i anglès."
 ---
 
 <div class="flex flex-wrap">
@@ -24,7 +24,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
             <a href="/ca/serveis/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Teràpia individual</div></a>
             <a href="/ca/serveis/terapia-de-parella"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Teràpia de parella</div></a>
-            <a href="/ca/serveis/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Teràpia en línia</div></a>
+            <a href="/ca/serveis/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Teràpia online</div></a>
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
             <a href="/ca/serveis/suport-a-la-crianca"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Suport a la criança</div></a>
@@ -64,7 +64,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
             <div class="shadow rounded-full bg-planta-clar p-8">
               {% include svg/imac.md %}
             </div>
-            <h2 class="text-xl mt-4">En línia</h2>
+            <h2 class="text-xl mt-4">Online</h2>
             <p class="text-center sm:text-justify">Des de la comoditat de casa teva</p>
         </div>
         <div class="p-4 w-full sm:w-1/2 md:w-1/4 flex flex-col items-center">
