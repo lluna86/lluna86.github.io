@@ -12,5 +12,5 @@ permalink: /ca/legal/
 	<div><b>Drets:</b> Accedir, rectificar i suprimir les dades, així com altres drets, com s'explica en la informació addicional, a psicologia@bertasanfeliu.com</div>
 	<h2 class="pt-8 pb-4 text-xl">Tractament de cookies</h2>
 	<p class="text-justify">Una cookie és un petit fitxer que es descarrega i s'emmagatzema a l'ordinador de l'usuari quan aquest accedeix a una pàgina web. Les cookies permeten a la web, entre altres coses, emmagatzemar i recuperar informació sobre els hàbits de navegació de l'usuari o del seu equip i, depenent de la informació que continguin i de la manera en què utilitzi el seu equip, poden utilitzar-se per reconèixer l'usuari.</p>
-	<p class="text-justify">L'usuari té l'opció d'impedir la generació de cookies, mitjançant la selecció de l'opció corresponent en el seu programa de navegador. Pot obtenir més informació llegint la nostra Política de Cookies.</p>
+	<p class="text-justify">L'usuari té l'opció d'impedir la generació de cookies, mitjançant la selecció de l'opció corresponent en el seu programa de navegador.</p>
 </div>
