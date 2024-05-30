@@ -74,14 +74,14 @@ permalink: /ca/serveis/
 </div>
 
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl text-center">Sessions de suport a familiars de nens amb NEE</h2>
+    <h2 class="text-3xl text-center">Sessions de suport a familiars d'infants amb NEE</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
             <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/planta-interior.webp">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
-            <p class="w-full">El teu fill/a té necessitats especials i necessites ajuda? No saps com ajudar-lo/la? Obté eines específiques i estratègies adaptades per abordar els desafiaments únics als quals us enfronteu com a família.</p>
+            <p class="w-full">El teu fill o la teva filla té necessitats especials i necessites ajuda? No saps com ajudar-lo/la? Obté eines específiques i estratègies adaptades per abordar els desafiaments únics als quals us enfronteu com a família.</p>
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
