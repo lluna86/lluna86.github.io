@@ -28,7 +28,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
             <a href="/ca/serveis/suport-a-la-crianca"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Suport a la criança</div></a>
-            <a href="/ca/serveis/suport-a-familiars-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Suport a familiars de nens amb NEE</div></a>
+            <a href="/ca/serveis/suport-a-familiars-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Suport a familiars d'infants amb NEE</div></a>
             <a href="/ca/serveis/asssessorament-i-tallers"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Assessorament i tallers</div></a>
         </div>
     </div>
