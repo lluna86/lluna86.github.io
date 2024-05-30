@@ -12,5 +12,5 @@ permalink: /en/legal/
 	<div><b>Derechos:</b> Access, rectify, and delete data, as well as other rights, as explained in the additional information, at psicologia@bertasanfeliu.com</div>
 	<h2 class="pt-8 pb-4 text-xl">Cookie Policy</h2>
 	<p class="text-justify">A cookie is a small file that is downloaded and stored on the user's computer when accessing a website. Cookies allow the website, among other things, to store and retrieve information about the user's browsing habits or their device, and depending on the information they contain and how the user uses their device, they can be used to recognize the user.</p>
-	<p class="text-justify">The user has the option to prevent the generation of cookies by selecting the corresponding option in their browser program. You can get more information by reading our Cookie Policy.</p>
+	<p class="text-justify">The user has the option to prevent the generation of cookies by selecting the corresponding option in their browser program.</p>
 </div>
