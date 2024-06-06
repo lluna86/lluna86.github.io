@@ -20,7 +20,7 @@ metadescription: "A través dels meus anys de formació vaig descobrir que el qu
             <p class="font-bold text-terros text-center text-lg pt-4"><b>Considero un privilegi acompanyar a les persones amb les que treballo.</b></p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
-            <img class="w-10/12 rounded-full" src="/assets/images/berta.webp" alt="Imatge de Berta">
+            <img class="" src="/assets/images/bertafull.webp" alt="Imatge de Berta">
         </div>
     </div>
     <div class="py-8 lg:px-64 xxl:px-64">

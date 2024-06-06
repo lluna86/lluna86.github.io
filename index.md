@@ -43,7 +43,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
             <img class="pb-4 sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
-            <p class="text-center sm:text-justify text-sm sm:text-base">Soy Licenciada en Psicología por la Universidad de Barcelona. Dispongo de la certificación de Psicóloga General Sanitaria reconocida por la Generalitat de Catalunya, título que me habilita como profesional para poder ejercer la psicología clínica en el sector privado.</p>
+            <p class="text-center sm:text-justify text-sm sm:text-base">Soy Licenciada en Psicología por la Universidad de Barcelona. Dispongo de la certificación de Psicóloga General Sanitaria reconocida por la Generalitat de Catalunya, título que me habilita como profesional para poder ejercer la psicología clínica en el sector privado.  <a href="/sobre-mi" class="underline text-blue-800">+ info</a></p>
         </div>
     </div>
 </div>

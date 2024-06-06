@@ -20,7 +20,7 @@ metadescription: "Through my years of training, I discovered that what I am most
             <p class="font-bold text-terros text-center text-lg pt-4"><b>I consider it a privilege to accompany the people I work with.</b></p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
-            <img class="w-10/12 rounded-full" src="/assets/images/berta.webp" alt="Imagen de Berta">
+            <img class="" src="/assets/images/bertafull.webp" alt="Imagen de Berta">
         </div>
     </div>
     <div class="py-8 lg:px-64 xxl:px-64">

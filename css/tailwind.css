@@ -607,10 +607,6 @@ b {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -629,14 +625,6 @@ b {
 
 .z-40 {
   z-index: 40;
-}
-
-.z-30 {
-  z-index: 30;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .m-2 {
@@ -677,24 +665,8 @@ b {
   margin-bottom: 1rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .block {
@@ -757,10 +729,6 @@ b {
   max-height: 0px;
 }
 
-.min-h-full {
-  min-height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -793,16 +761,8 @@ b {
   width: 3rem;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .w-5 {
   width: 1.25rem;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
 }
 
 .w-1\/2 {
@@ -817,12 +777,8 @@ b {
   width: 75%;
 }
 
-.min-w-full {
-  min-width: 100%;
-}
-
-.max-w-none {
-  max-width: none;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .transform {
@@ -865,10 +821,6 @@ b {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
@@ -884,12 +836,6 @@ b {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -963,20 +909,6 @@ b {
 .bg-planta-clar {
   --tw-bg-opacity: 1;
   background-color: rgb(195 206 204 / var(--tw-bg-opacity));
-}
-
-.bg-teal-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 246 228 / var(--tw-bg-opacity));
-}
-
-.bg-purple-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
 }
 
 .bg-\[url\(\'\/assets\/images\/contacta\.webp\'\)\] {
@@ -1065,10 +997,6 @@ b {
   padding: 2rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1114,14 +1042,14 @@ b {
   padding-right: 2.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pt-2 {
@@ -1144,14 +1072,6 @@ b {
   padding-bottom: 1rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1170,18 +1090,6 @@ b {
 
 .pb-12 {
   padding-bottom: 3rem;
-}
-
-.pl-12 {
-  padding-left: 3rem;
-}
-
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
 }
 
 .text-left {
@@ -1220,14 +1128,14 @@ b {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg {
@@ -1290,9 +1198,9 @@ b {
   color: rgb(110 55 31 / var(--tw-text-opacity));
 }
 
-.text-terros-clar {
+.text-blue-800 {
   --tw-text-opacity: 1;
-  color: rgb(203 197 148 / var(--tw-text-opacity));
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .text-gray-600 {
@@ -1303,6 +1211,15 @@ b {
 .text-gray-100 {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.text-terros-clar {
+  --tw-text-opacity: 1;
+  color: rgb(203 197 148 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .antialiased {
@@ -1404,14 +1321,6 @@ b {
     display: block;
   }
 
-  .sm\:inline-block {
-    display: inline-block;
-  }
-
-  .sm\:inline {
-    display: inline;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -1465,31 +1374,8 @@ b {
     align-items: center;
   }
 
-  .sm\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .sm\:justify-end {
-    justify-content: flex-end;
-  }
-
   .sm\:justify-between {
     justify-content: space-between;
-  }
-
-  .sm\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
-  .sm\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:bg-teal-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(153 246 228 / var(--tw-bg-opacity));
   }
 
   .sm\:bg-\[url\(\'\/assets\/images\/jar\.webp\'\)\] {
