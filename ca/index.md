@@ -40,7 +40,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
     <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">CONSIDERO UN PRIVILEGI ACOMPANYAR A LES PERSONES AMB QUI TREBALLO.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0">
-            <img class="pb-4 sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
+            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
             <p class="text-center sm:text-justify text-sm sm:text-base">Sóc Llicenciada en Psicologia per la Universitat de Barcelona. Disposo de la certificació de Psicòloga General Sanitària reconeguda per la Generalitat de Catalunya, títol que m'habilita com a professional per poder exercir la psicologia clínica en el sector privat.  <a href="/ca/sobre-mi" class="underline text-blue-800">+ info</a></p>
