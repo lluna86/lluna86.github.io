@@ -1,34 +1,55 @@
 <header>
-  <nav class="bg-gray-100 shadow py-2 fixed right-0 left-0 z-40" style="background-color: rgba(249, 250, 251, 0.9);">
-    <div class="px-10 lg:px-48 xxl:px-64 sm:flex sm:flex-wrap sm:justify-between sm:items-center">
-      <div class="">
-        <div class="flex flex-wrap justify-between items-center">
-          <!-- Left -->
-          <div class="text-gray-700 flex flex-wrap w-64">
-            <a href="/en" class="font-bold text-2xl">Berta Sanfeliu</a>
-            <a href="/en" class="font-bold text-xs">Psychologist and Psychotherapist</a>
-          </div>
-
-          <!-- Hamburguer -->
-          <div class="sm:hidden">
-            <button type="button" class="text-gray-700" id="nav-toggle">
-              <svg class="h-6 w-6 fill-current text-{{include.primary-color}}" viewBox="0 0 24 24">
-                <path id="hamburger" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
-                <path id="cross" fill-rule="evenodd" class="hidden" d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
-              </svg>
-            </button>
-          </div>
+  <nav class="items-center bg-gray-100 shadow py-2 fixed right-0 left-0 z-40" style="background-color: rgba(249, 250, 251, 0.9);">
+    <div class="px-10 lg:px-48 xxl:px-64 flex justify-between items-center">
+      <!-- Left -->
+      <div class="flex items-center">
+        <div class="text-gray-700 flex flex-col">
+          <a href="/" class="font-bold text-2xl">Berta Sanfeliu</a>
+          <a href="/" class="font-bold text-xs">Psychologist and Psychotherapist</a>
         </div>
       </div>
-      
-      <div id="nav-menu" class="hidden sm:block sm:w-auto sm:flex sm:flex-wrap text-gray-700">
+
+      <!-- Navigation Links -->
+      <div id="nav-menu" class="hidden sm:flex flex-grow justify-center items-center text-gray-700">
         <a class="block text-center py-2 sm:px-4" href="/en/">Home</a>
         <a class="block text-center py-2 sm:px-4" href="/en/about">About</a>
         <a class="block text-center py-2 sm:px-4" href="/en/services">Services</a>
         <a class="block text-center py-2 sm:px-4" href="/en/faq">FAQ</a>
         <a class="block text-center py-2 sm:px-4" href="/en/contact/">Contact</a>
       </div>
+
+      <!-- Right -->
+      <div class="flex items-center">
+        <!-- Language Selector -->
+        <div class="hidden sm:block ml-4 text-center bg-gray-300 font-bold text-white text-xs sm:py-1 sm:px-1 rounded">
+          <a href="/" class="">ES</a> | <a href="/ca" class="">CA</a>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="sm:hidden ml-2">
+          <button type="button" class="text-gray-700" id="nav-toggle">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <path id="hamburger" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+              <path id="cross" fill-rule="evenodd" class="hidden" d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
     
-  </nav> 
+    <!-- Mobile Menu -->
+    <div id="nav-menu-mobile" class="hidden sm:hidden flex flex-col text-gray-700 items-center">
+      <a class="block text-center py-2" href="/en/">Home</a>
+      <a class="block text-center py-2" href="/en/about">About</a>
+      <a class="block text-center py-2" href="/en/services">Services</a>
+      <a class="block text-center py-2" href="/en/faq">FAQ</a>
+      <a class="block text-center py-2" href="/en/contact/">Contact</a>
+      <div class="py-1 px-1 my-4 text-center bg-gray-300 font-bold text-white text-xs rounded">
+          <a href="/" class="">ES</a> | <a href="/ca" class="">CA</a>
+        </div>
+    </div>
+  </nav>
 </header>
+
+
+
