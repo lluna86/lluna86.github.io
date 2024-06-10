@@ -15,7 +15,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
 
 
 <div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl sm:text-3xl text-center">How may I assist you you</h2>
+    <h2 class="text-3xl sm:text-3xl text-center">How may I assist you</h2>
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">I OFFER DIFFERENT SESSION FORMATS TO ADAPT TO YOUR NEEDS.</h3>
     <div class="flex flex-wrap justify-center items-center">
