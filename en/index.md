@@ -20,14 +20,14 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
     <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">I OFFER DIFFERENT SESSION FORMATS TO ADAPT TO YOUR NEEDS.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="services/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Individual therapy</div></a>
-            <a href="services/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Couples therapy</div></a>
-            <a href="servicios/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Online therapy</div></a>
+            <a href="services/individual-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Individual therapy</div></a>
+            <a href="services/couples-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Couples therapy</div></a>
+            <a href="services/online-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Online therapy</div></a>
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="servicios/apoyo-a-la-crianza"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Parenting support</div></a>
-            <a href="servicios/apoyo-a-familiares-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Support for family members of children with special needs</div></a>
-            <a href="servicios/asesoramientos-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Consultations and workshops</div></a>
+            <a href="services/parenting-support"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Parenting support</div></a>
+            <a href="services/support-for-family-members-of-children-with-special-needs"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Support for family members of children with special needs</div></a>
+            <a href="services/consultations-and-workshops"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Consultations and workshops</div></a>
         </div>
     </div>
 </div>
