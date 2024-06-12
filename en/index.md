@@ -117,7 +117,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Places</div>
+            <div class="pt-2 font-bold w-full text-center">Locations</div>
             <div class="w-full text-center">Plaça de Gal·la Placídia, 10</div>
             <div class="w-full text-center">c/ Rosselló, 17</div>
         </div>
