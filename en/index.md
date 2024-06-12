@@ -103,7 +103,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
                     {% include svg/phone.md %}
                 </div>
             </div>
-            <div class="pt-2  font-bold w-full text-center">Teléfono</div>
+            <div class="pt-2  font-bold w-full text-center">Phone number</div>
             <div class="w-full hover:underline text-center"><a target="_blank" href="tel:+34649806962">(+34) 649 80 69 62</a></div>
         </div>
         <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
@@ -117,7 +117,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Ubicaciones</div>
+            <div class="pt-2 font-bold w-full text-center">Places</div>
             <div class="w-full text-center">Plaça de Gal·la Placídia, 10</div>
             <div class="w-full text-center">c/ Rosselló, 17</div>
         </div>
