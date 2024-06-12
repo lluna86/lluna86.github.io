@@ -21,7 +21,7 @@ metadescription: "Teràpia en línia a través de videotrucada, en el moment i l
 			<li>Tenir accés a un dispositiu connectat: necessitaràs un dispositiu adequat per connectar-te a la sessió, ja sigui un telèfon mòbil, una tauleta o un ordinador.</li>
 			<li>Tenir una connexió estable: assegura't de comptar amb una connexió a internet estable per garantir una experiència sense interferències tècniques durant la sessió.</li>
 		</ul>
-		<div class="w-full text-center pt-4 text-xl font-bold">Sóc aquí per acompanyar-te en el teu procés de creixement i benestar, siguis on siguis.</div>
+		<p>Sóc aquí per acompanyar-te en el teu procés de creixement i benestar, siguis on siguis.</p>
 	</div>
 </div>
 

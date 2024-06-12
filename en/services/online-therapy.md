@@ -21,7 +21,9 @@ metadescription: "Online therapy via video call, at the preferred time and locat
 			<li>Have access to a connected device: You will need a suitable device to connect to the session, whether a mobile phone, tablet, or computer.</li>
 			<li>Have a stable connection: Ensure you have a stable internet connection to guarantee an experience without technical interruptions during the session.</li>
 		</ul>
-	    <p>I am here to support you in your process of growth and well-being, wherever you are.<p>
+	    <p>I am here to support you in your process of growth and well-being, wherever you are.</p>
+	</div>
+</div>
 
 <div class="flex flex-wrap justify-center mt-2 mb-8">
 	<a href="/en/contact"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>

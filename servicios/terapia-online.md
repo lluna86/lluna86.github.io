@@ -21,7 +21,7 @@ metadescription: "Terapia online a través de videollamada, en el momento y luga
 			<li>Tener acceso a un dispositivo conectado: necesitarás un dispositivo adecuado para conectarte a la sesión, ya sea un teléfono móvil, una tablet o un ordenador.</li>
 			<li>Tener una conexión estable: asegúrate de contar con una conexión a internet estable para garantizar una experiencia sin interferencias técnicas durante la sesión.</li>
 		</ul>
-		<div class="w-full text-center pt-4 text-xl font-bold">Estoy aquí para acompañarte en tu proceso de crecimiento y bienestar, estés donde estés.</div>
+		<p>Estoy aquí para acompañarte en tu proceso de crecimiento y bienestar, estés donde estés.</p>
 	</div>
 </div>
 
