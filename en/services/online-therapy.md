@@ -14,7 +14,7 @@ metadescription: "Online therapy via video call, at the preferred time and locat
 
 <div class="text-justify px-4 pt-8 sm:px-8 md:pt-12 lg:px-24 lg:pt-16 xl:px-48 2xl:px-64 leading-7">
     <div class="flex flex-wrap">
-		<p>Online therapy offers the <b>flexibility and convenience<b> needed to fit your lifestyle and individual needs and is an <b>equally effective alternative<b> to face-to-face therapy.</p>
+		<p>Online therapy offers the <b>flexibility and convenience</b> needed to fit your lifestyle and individual needs and is an <b>equally effective alternative</b> to face-to-face therapy.</p>
 		<p>To get the most out of online therapy sessions, it is important to keep the following in mind:</p>
 		<ul class="list-disc pl-8">
 			<li>Have a quiet space: It is essential to have a quiet and interruption-free space where you can fully concentrate during the session and be calm.</li>
