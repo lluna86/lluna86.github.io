@@ -14,7 +14,7 @@ metadescription: "Teràpia en línia a través de videotrucada, en el moment i l
 
 <div class="text-justify px-4 pt-8 sm:px-8 md:pt-12 lg:px-24 lg:pt-16 xl:px-48 2xl:px-64 leading-7">
     <div class="flex flex-wrap">
-		<p>La teràpia en línia ofereix la flexibilitat i conveniència necessàries per adaptar-se al teu estil de vida i necessitats individuals, i és una alternativa igualment efectiva a la teràpia presencial.</p>
+		<p>La teràpia en línia ofereix la <b>flexibilitat i conveniència</b> necessàries per adaptar-se al teu estil de vida i necessitats individuals, i és una <b>alternativa igualment efectiva</b> a la teràpia presencial.</p>
 		<p>Per treure el màxim profit de les sessions terapèutiques en línia, és important tenir en compte el següent:</p>
 		<ul class="list-disc pl-8">
 			<li>Disposar d'un espai tranquil: és fonamental disposar d'un espai tranquil i lliure d'interrupcions on puguis concentrar-te plenament durant la sessió i estar en calma. </li>

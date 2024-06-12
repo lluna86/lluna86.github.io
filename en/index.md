@@ -20,14 +20,14 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
     <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">I OFFER DIFFERENT SESSION FORMATS TO ADAPT TO YOUR NEEDS.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="services/terapia-individual"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Individual therapy</div></a>
-            <a href="services/terapia-de-pareja"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Couples therapy</div></a>
-            <a href="servicios/terapia-online"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Online therapy</div></a>
+            <a href="services/individual-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Individual therapy</div></a>
+            <a href="services/couples-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Couples therapy</div></a>
+            <a href="services/online-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Online therapy</div></a>
         </div>
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="servicios/apoyo-a-la-crianza"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Parenting support</div></a>
-            <a href="servicios/apoyo-a-familiares-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Support for family members of children with special needs</div></a>
-            <a href="servicios/asesoramientos-y-talleres"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Consultations and workshops</div></a>
+            <a href="services/parenting-support"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Parenting support</div></a>
+            <a href="services/support-for-family-members-of-children-with-special-needs"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Support for family members of children with special needs</div></a>
+            <a href="services/consultations-and-workshops"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Consultations and workshops</div></a>
         </div>
     </div>
 </div>
@@ -41,7 +41,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
             <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
-            <p class="text-center sm:text-justify text-sm sm:text-base">I have a degree in Psychology from the University of Barcelona. I hold the certification of General Health Psychologist recognized by the Generalitat de Catalunya, a title that enables me as a professional to practice clinical psychology in the private sector. <a href="/en/about" class="underline text-blue-800">+ info</a></p>
+            <p class="text-center sm:text-justify text-sm sm:text-base">I have a degree in Psychology from the University of Barcelona. I am a licensed psychologist, registered to practice clinical psychology in the private sector. <a href="/en/about" class="underline text-blue-800">+ info</a></p>
         </div>
     </div>
 </div>
@@ -103,7 +103,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
                     {% include svg/phone.md %}
                 </div>
             </div>
-            <div class="pt-2  font-bold w-full text-center">Teléfono</div>
+            <div class="pt-2  font-bold w-full text-center">Phone number</div>
             <div class="w-full hover:underline text-center"><a target="_blank" href="tel:+34649806962">(+34) 649 80 69 62</a></div>
         </div>
         <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
@@ -117,7 +117,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Ubicaciones</div>
+            <div class="pt-2 font-bold w-full text-center">Locations</div>
             <div class="w-full text-center">Plaça de Gal·la Placídia, 10</div>
             <div class="w-full text-center">c/ Rosselló, 17</div>
         </div>
