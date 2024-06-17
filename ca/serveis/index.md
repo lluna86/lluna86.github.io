@@ -85,7 +85,7 @@ permalink: /ca/serveis/
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="suport-a-familiars-nnee"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Més informació</button></a>
+        <a href="suport-a-familiars-nnee/"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Més informació</button></a>
     </div>
 </div>
 
