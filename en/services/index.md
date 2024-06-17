@@ -37,7 +37,7 @@ permalink: /en/services/
         </div>
     </div>
     <div class="flex flex-wrap justify-center mt-6">
-        <a href="couples-terapy"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
+        <a href="couples-therapy"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">More information</button></a>
     </div>
 </div>
 

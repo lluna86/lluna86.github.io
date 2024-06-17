@@ -29,7 +29,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
         <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
             <a href="/ca/serveis/suport-a-la-crianca"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Suport a la criança</div></a>
             <a href="/ca/serveis/suport-a-familiars-nnee"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Suport a familiars d'infants amb NEE</div></a>
-            <a href="/ca/serveis/asssessorament-i-tallers"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Assessorament i tallers</div></a>
+            <a href="/ca/serveis/assessorament-i-tallers"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Assessorament i tallers</div></a>
         </div>
     </div>
 </div>
@@ -43,7 +43,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
             <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
-            <p class="text-center sm:text-justify text-sm sm:text-base">Sóc Llicenciada en Psicologia per la Universitat de Barcelona. Disposo de la certificació de Psicòloga General Sanitària reconeguda per la Generalitat de Catalunya, títol que m'habilita com a professional per poder exercir la psicologia clínica en el sector privat.  <a href="/ca/sobre-mi" class="underline text-blue-800">+ info</a></p>
+            <p class="text-center sm:text-justify text-sm sm:text-base">Sóc Llicenciada en Psicologia per la Universitat de Barcelona i estic certificada com a <b>Psicòloga General Sanitària</b> per la Generalitat de Catalunya, qualificació que m'habilita per exercir la psicologia clínica en el sector privat, complint amb tots els requisits normatius. <a href="/ca/sobre-mi" class="underline text-blue-800">+ info</a></p>
         </div>
     </div>
 </div>
