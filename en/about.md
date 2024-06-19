@@ -26,7 +26,7 @@ metadescription: "Through my years of training, I discovered that what I am most
     <div class="py-8 lg:px-64 xxl:px-64">
         <h2 class="text-3xl text-center">Training</h2>
         <div class="text-justify pt-4 sm:columns-2 px-8 lg:px-0 gap-x-12">
-            <p>I hold a <b>BSc in Psychology</b> and studied at the University of Barcelona. My interest in childhood and prevention led me to specialize in the field of early and family intervention, and Autism Spectrum Disorder.</p>
+            <div>I hold a <b>BSc in Psychology</b> and studied at the University of Barcelona. My interest in childhood and prevention led me to specialize in the field of early and family intervention, and Autism Spectrum Disorder.</div>
             <p>I completed the <b>Master's Degree in Child Psychiatry and Psychology</b> at the Autonomous University of Barcelona. Later on, I gained international experience working as a psychotherapist and researcher at the <b>University of Cambridge</b> in England. This enriching period inspired me to continue my training in the <b>Master's Degree in Early Intervention and Family</b> at the Ramon Llull University of Barcelona.</p>
             <p>I decided to continue growing professionally and expand my horizons towards psychotherapy with adults, which led me to complete the <b>Postgraduate in Integrative Therapy</b> which adapts to the unique needs of each individual, recognizing their complexity and singularity.</p>
             <p>In addition, I have actively pursued opportunities to enrich my professional practice through complementary training. I am also trained in <b>couples therapy</b>, as well as specific courses in <b>emotional intervention</b>, <b>grief and loss</b>, and <b>trauma.</b></p>
