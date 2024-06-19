@@ -27,12 +27,10 @@ metadescription: "A través de mis años de formación descubrí que lo que más
         <h2 class="text-3xl text-center">Formación</h2>
         <div class="text-justify pt-4 sm:columns-2 px-8 lg:px-0 gap-x-12">
             <div>Soy <b>Licenciada en Psicología</b> por la Universidad de Barcelona. Mi interés por la infancia y la prevención me llevó a especializarme en el campo de la atención precoz y familiar, y el Trastorno del Espectro del Autismo.</div>
-            <br/>
-            <div>Realicé el <b>Máster de Formación en Paidopsiquiatría y Psicología de la Infancia y la Adolescencia</b> en la Universidad Autónoma de Barcelona. Posteriormente, adquirí experiencia internacional trabajando como psicoterapeuta e investigadora en la Universidad de Cambridge, en Inglaterra. Este período enriquecedor me inspiró a continuar mi formación en el <b>Máster en Atención Precoz y Familia</b> en la Universidad Ramon Llull de Barcelona.</div>
+            <p>Realicé el <b>Máster de Formación en Paidopsiquiatría y Psicología de la Infancia y la Adolescencia</b> en la Universidad Autónoma de Barcelona. Posteriormente, adquirí experiencia internacional trabajando como psicoterapeuta e investigadora en la <b>Universidad de Cambridge</b>, en Inglaterra. Este período enriquecedor me inspiró a continuar mi formación en el <b>Máster en Atención Precoz y Familia</b> en la Universidad Ramon Llull de Barcelona.</p>
+            <p>Decidí seguir creciendo profesionalmente y ampliar mis horizontes hacia la psicoterapia con adultos, lo que me llevó a cursar el <b>Postgrado en Terapia Integradora</b> que se adapta las necesidades únicas de cada individuo, reconociendo su complejidad y singularidad.</p>
             
-            <div>Decidí seguir creciendo profesionalmente y ampliar mis horizontes hacia la psicoterapia con adultos, lo que me llevó a cursar el <b>Postgrado en Terapia Integradora</b> que se adapta las necesidades únicas de cada individuo, reconociendo su complejidad y singularidad.</div>
-            <br/>
-            <div>Además, he buscado enriquecer mi práctica profesional mediante formaciones complementarias. Destaco mi formación en <b>terapia de pareja</b> así como cursos específicos en intervención emocional, duelo y pérdidas, y trauma.</div>
+            <p>Además, he buscado enriquecer mi práctica profesional mediante formaciones complementarias. Destaco mi formación en <b>terapia de pareja</b> así como cursos específicos en intervención emocional, duelo y pérdidas, y trauma.</p>
         </div>
         <div class="flex flex-wrap justify-center items-center pt-8">
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">

@@ -27,12 +27,9 @@ metadescription: "A través dels meus anys de formació vaig descobrir que el qu
         <h2 class="text-3xl text-center">Formació</h2>
         <div class="text-justify pt-4 sm:columns-2 px-8 lg:px-0 gap-x-12">
             <div>Sóc <b>Llicenciada en Psicologia</b> per la Universitat de Barcelona. El meu interès per la infància i la prevenció em va portar a especialitzar-me en el camp de l'atenció precoç i familiar, i el Trastorn de l'Espectre de l'Autisme.</div>
-            <br/>
-            <div>Vaig realitzar el <b>Màster de Formació en Paidopsiquiatria i Psicologia de la Infància i l'Adolescència</b> a la Universitat Autònoma de Barcelona. Posteriorment, vaig adquirir experiència internacional treballant com a psicoterapeuta i investigadora a la Universitat de Cambridge, a Anglaterra. Aquest període enriquidor em va inspirar a continuar la meva formació en el <b>Màster en Atenció Precoç i Família</b> a la Universitat Ramon Llull de Barcelona.</div>
-            <br/>
-            <div>Vaig decidir seguir creixent professionalment i ampliar els meus horitzons cap a la psicoteràpia amb adults, cosa que em va portar a cursar el <b>Postgrau en Teràpia Integradora</b> que s'adapta a les necessitats úniques de cada individu, reconeixent la seva complexitat i singularitat.</div>
-            <br/>
-            <div>A més, he buscat enriquir la meva pràctica professional mitjançant formacions complementàries. Destaco la meva formació en <b>teràpia de parella</b> així com cursos específics en intervenció emocional, dol i pèrdues, i trauma.</div>
+            <p>Vaig realitzar el <b>Màster de Formació en Paidopsiquiatria i Psicologia de la Infància i l'Adolescència</b> a la Universitat Autònoma de Barcelona. Posteriorment, vaig adquirir experiència internacional treballant com a psicoterapeuta i investigadora a la <b>Universitat de Cambridge</b>, a Anglaterra. Aquest període enriquidor em va inspirar a continuar la meva formació en el <b>Màster en Atenció Precoç i Família</b> a la Universitat Ramon Llull de Barcelona.</p>
+            <p>Vaig decidir seguir creixent professionalment i ampliar els meus horitzons cap a la psicoteràpia amb adults, cosa que em va portar a cursar el <b>Postgrau en Teràpia Integradora</b> que s'adapta a les necessitats úniques de cada individu, reconeixent la seva complexitat i singularitat.</p>
+            <p>A més, he buscat enriquir la meva pràctica professional mitjançant formacions complementàries. Destaco la meva formació en <b>teràpia de parella</b> així com cursos específics en intervenció emocional, dol i pèrdues, i trauma.</p>
         </div>
         <div class="flex flex-wrap justify-center items-center pt-8">
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
