@@ -2,7 +2,12 @@
       <meta charset="utf-8">
       <title>{{ page.title }}</title>
       <meta name="description" content="{{ page.metadescription }}">
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://*.githubusercontent.com;">
+      <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://platform.docplanner.com;
+">
       <link rel="stylesheet" href="{{ site.baseurl}}/css/tailwind.css">
       <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
