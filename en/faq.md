@@ -62,7 +62,7 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">My fees are 60 euros per hour, both for in-person and online visits, and 70 euros for couples' sessions.</p>
+	      		<p class="text-gray-600">My fees are 60 euros per hour, both for in-person and online visits, and 80 euros for couples' sessions.</p>
 	      		<p class="text-gray-600">Sessions last approximately one hour; an hour and a quarter in the case of couples therapy.</p>
 	    	</div>
 	  	</div>
