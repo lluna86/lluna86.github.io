@@ -58,17 +58,6 @@ metadescription: "Resolució a preguntes freqüents i forma de contacte en cas d
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">Quin és el preu d'una sessió? Quant dura?</span>
-	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-	    	</button>
-	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Les meves tarifes són de 60 euros l'hora, tant per a les visites presencials com les en línia, i 80 euros la sessió de parella.</p>
-	      		<p class="text-gray-600">Les sessions duren aproximadament una hora; una hora i quart en el cas de teràpia de parella.</p>
-	    	</div>
-	  	</div>
-	  	<hr>
-		<div class="faq-item">
-	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">Com funciona la política de cancel·lació?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 
 
