@@ -58,17 +58,6 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	  	<hr>
 		<div class="faq-item">
 	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
-	      		<span class="text-xl pr-2 font-bold">What is the price of a session? How long does it last?</span>
-	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-	    	</button>
-	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">My fees are 60 euros per hour, both for in-person and online visits, and 80 euros for couples' sessions.</p>
-	      		<p class="text-gray-600">Sessions last approximately one hour; an hour and a quarter in the case of couples therapy.</p>
-	    	</div>
-	  	</div>
-	  	<hr>
-		<div class="faq-item">
-	    	<button class="flex items-center justify-start w-full text-terros font-medium py-2 hover:text-terros-clar focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" onclick="toggleFaq(this)">
 	      		<span class="text-xl pr-2 font-bold">How does the cancellation policy work?</span>
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
