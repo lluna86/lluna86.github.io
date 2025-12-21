@@ -3,9 +3,6 @@ layout: default
 title: Berta Sanfeliu - Psicóloga y psicoterapeuta
 metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios de psicoterapia en Barcelona y online en castellano, catalán e inglés."
 ---
-
-<a id="zl-url" class="zl-url" href="https://www.doctoralia.es/berta-sanfeliu-salva/psicologo/esplugues-de-llobregat" rel="nofollow" data-zlw-doctor="berta-sanfeliu-salva" data-zlw-type="button_calendar_floating_medium" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="true">Berta Sanfeliu Salvà - Doctoralia.es</a><script>!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
-
 <div class="flex flex-wrap">
 	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.webp')] sm:bg-[url('/assets/images/jar.webp')] w-full h-screen flex justify-center items-center">
 	    <div class="text-white text-3xl font-bold text-center">
