@@ -117,7 +117,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Locations</div>
+            <div class="pt-2 font-bold w-full text-center">Location</div>
             <div class="w-full text-center">84 Tarragona Street</div>
         </div>
     </div>
