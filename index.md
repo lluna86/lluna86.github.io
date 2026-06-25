@@ -118,7 +118,7 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
             <div class="w-20 h-20 rounded-lg justify-center items-center flex">
                 {% include svg/pin.md %}
             </div>
-            <div class="pt-2 font-bold w-full text-center">Ubicaciones</div>
+            <div class="pt-2 font-bold w-full text-center">Ubicación</div>
             <div class="w-full text-center">c/ Tarragona, 84</div>
         </div>
     </div>
