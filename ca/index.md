@@ -122,8 +122,7 @@ APP O OMPLINT EL FORMULARI.</h3>
                 {% include svg/pin.md %}
             </div>
             <div class="pt-2 font-bold w-full text-center">Ubicacions</div>
-            <div class="w-full text-center">Plaça de Gal·la Placídia, 10</div>
-            <div class="w-full text-center">c/ Rosselló, 17</div>
+            <div class="w-full text-center">c/ Tarragona, 84</div>
         </div>
     </div>
     <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
