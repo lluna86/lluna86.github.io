@@ -1604,6 +1604,172 @@ b {
   color: #6e371f;
 }
 
+.section-band {
+  padding: 1.5rem 1rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.section-rule {
+  margin: 1rem auto 0.5rem;
+  height: 0.25rem;
+  width: 4rem;
+  border-width: 0;
+  border-radius: 0.25rem;
+  background-color: #c3cecc;
+}
+
+.section-kicker {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 100;
+  color: #6e371f;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.services-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.service-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background-color: rgb(255 255 255);
+  color: rgb(17 24 39);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.service-card-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+.service-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.service-card-body h3 {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #6e371f;
+}
+
+.service-card-body p {
+  flex: 1;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(55 65 81);
+}
+
+.service-card-body span {
+  padding-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #6c826a;
+}
+
+.home-about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-about-image {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.home-about-copy {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.home-about-copy p {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.modalities-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.modality-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.modality-icon {
+  display: flex;
+  height: 7rem;
+  width: 7rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #c3cecc;
+  padding: 2rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.modality-item h3 {
+  margin-top: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.modality-item p {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .reviews-wrap {
   max-width: 56rem;
   margin-left: auto;
@@ -1750,6 +1916,39 @@ b {
     padding-top: 0;
   }
 
+  .section-band {
+    padding: 3rem 2rem;
+  }
+
+  .section-rule {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-kicker {
+    padding-bottom: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .home-about-image {
+    width: 33.333333%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-about-copy {
+    width: 66.666667%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-about-copy p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .review-text {
     text-align: left;
     font-size: 1.125rem;
@@ -1758,5 +1957,26 @@ b {
 
   .review-meta {
     justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-band {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-band {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .section-band {
+    padding-left: 16rem;
+    padding-right: 16rem;
   }
 }

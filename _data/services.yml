@@ -1,0 +1,97 @@
+items:
+  - key: individual
+    image: /assets/images/nenufar.webp
+    width: 1296
+    height: 864
+    es:
+      title: "Terapia individual"
+      url: /servicios/terapia-individual
+      text: "¿Buscas resolver problemas emocionales o personales que afectan tu vida diaria? Buscar apoyo para gestionar tus emociones, querer mejorar tu bienestar mental y alcanzar un mayor equilibrio en tu vida son muestra de valentía y deseo de crecimiento personal."
+    ca:
+      title: "Teràpia individual"
+      url: /ca/serveis/terapia-individual
+      text: "Busques resoldre problemes emocionals o personals que afecten la teva vida diària? Buscar suport per gestionar les teves emocions, voler millorar el teu benestar mental i assolir un major equilibri en la teva vida són mostra de valentia i desig de creixement personal."
+    en:
+      title: "Individual therapy"
+      url: /en/services/individual-therapy
+      text: "Are you looking to address emotional or personal challenges that are affecting your daily life? Seeking support to manage your emotions, improve your mental well-being, and achieve greater balance in your life are signs of courage and a desire for personal growth."
+  - key: couples
+    image: /assets/images/jarros.webp
+    width: 4500
+    height: 3000
+    es:
+      title: "Terapia de pareja"
+      url: /servicios/terapia-de-pareja
+      text: "¿Sientes que algo no va bien en tu relación de pareja? ¿Tenéis las mismas discusiones una y otra vez sin conseguir salir del círculo negativo? Permíteme ayudarte a salir del bucle y encontrar soluciones."
+    ca:
+      title: "Teràpia de parella"
+      url: /ca/serveis/terapia-de-parella
+      text: "Sents que alguna cosa no va bé en la teva relació de parella? Teniu les mateixes discussions una i altra vegada sense aconseguir sortir del cercle negatiu? Permet-me ajudar-te a sortir del bucle i trobar solucions."
+    en:
+      title: "Couples therapy"
+      url: /en/services/couples-therapy
+      text: "Do you feel that something is not right in your relationship? Are you having the same arguments over and over again without being able to break the negative cycle? Let me help you break the loop and find solutions."
+  - key: online
+    image: /assets/images/macbook.webp
+    width: 1148
+    height: 862
+    es:
+      title: "Terapia online"
+      url: /servicios/terapia-online/
+      text: "La terapia online ofrece la flexibilidad necesaria para adaptarse a tu estilo de vida, sin desplazamientos y manteniendo un espacio de trabajo psicológico cercano y cuidado."
+    ca:
+      title: "Teràpia online"
+      url: /ca/serveis/terapia-online/
+      text: "La teràpia online ofereix la flexibilitat necessària per adaptar-se al teu estil de vida, sense desplaçaments i mantenint un espai de treball psicològic proper i cuidat."
+    en:
+      title: "Online therapy"
+      url: /en/services/online-therapy/
+      text: "Online therapy offers the flexibility to adapt to your lifestyle, without travel, while maintaining a close and carefully held therapeutic space."
+  - key: parenting
+    image: /assets/images/flores-azules.webp
+    width: 1800
+    height: 1200
+    es:
+      title: "Apoyo a la crianza"
+      url: /servicios/apoyo-a-la-crianza/
+      text: "Orientación y recursos para abordar preocupaciones familiares, fortalecer el vínculo con tus hijos y mejorar el ambiente en casa."
+    ca:
+      title: "Suport a la criança"
+      url: /ca/serveis/suport-a-la-crianca/
+      text: "Orientació i recursos per abordar preocupacions familiars, enfortir el vincle amb els teus fills i millorar l'ambient a casa."
+    en:
+      title: "Parenting support"
+      url: /en/services/parenting-support/
+      text: "Guidance and practical resources to address family concerns, strengthen bonds with your children and improve the home environment."
+  - key: special-needs
+    image: /assets/images/planta-interior.webp
+    width: 2755
+    height: 2069
+    es:
+      title: "Apoyo a familiares de niños con NNEE"
+      url: /servicios/apoyo-a-familiares-nnee/
+      text: "Herramientas específicas y estrategias adaptadas para familias que acompañan a niños y niñas con necesidades educativas especiales."
+    ca:
+      title: "Suport a familiars d'infants amb NEE"
+      url: /ca/serveis/suport-a-familiars-nnee/
+      text: "Eines específiques i estratègies adaptades per a famílies que acompanyen infants amb necessitats educatives especials."
+    en:
+      title: "Support for family members of children with special needs"
+      url: /en/services/support-for-family-members-of-children-with-special-needs/
+      text: "Specific tools and tailored strategies for families supporting children with special educational needs."
+  - key: workshops
+    image: /assets/images/plantas.webp
+    width: 1528
+    height: 1019
+    es:
+      title: "Asesoramientos y talleres"
+      url: /servicios/asesoramientos-y-talleres/
+      text: "Asesoramiento psicológico para escuelas, docentes, madres y padres, además de talleres adaptados a cada necesidad."
+    ca:
+      title: "Assessorament i tallers"
+      url: /ca/serveis/assessorament-i-tallers/
+      text: "Assessorament psicològic per a escoles, docents, mares i pares, a més de tallers adaptats a cada necessitat."
+    en:
+      title: "Consultations and workshops"
+      url: /en/services/consultations-and-workshops/
+      text: "Psychological consultation for schools, teachers and families, plus workshops adapted to each need."

@@ -1,0 +1,22 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign home = site.data.home[lang] %}
+
+<div class="modalities-grid">
+  {% for modality in home.modalities %}
+    <div class="modality-item">
+      <div class="modality-icon">
+        {% if modality.icon == "sofa" %}
+          {% include svg/sofa.md %}
+        {% elsif modality.icon == "imac" %}
+          {% include svg/imac.md %}
+        {% elsif modality.icon == "bocadillos" %}
+          {% include svg/bocadillos.md %}
+        {% elsif modality.icon == "hands" %}
+          {% include svg/hands.md %}
+        {% endif %}
+      </div>
+      <h3>{{ modality.title }}</h3>
+      <p>{{ modality.text }}</p>
+    </div>
+  {% endfor %}
+</div>

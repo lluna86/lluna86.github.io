@@ -49,6 +49,103 @@ b {
   @apply underline text-terros;
 }
 
+.section-band {
+  @apply px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 py-6 sm:py-12;
+}
+
+.section-title {
+  @apply text-3xl sm:text-3xl text-center;
+}
+
+.section-rule {
+  @apply w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4;
+}
+
+.section-kicker {
+  @apply text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8;
+}
+
+.section-actions {
+  @apply flex justify-center pt-6;
+}
+
+.services-grid {
+  @apply grid gap-6;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.service-card {
+  @apply bg-white shadow rounded text-gray-900 overflow-hidden flex flex-col;
+  min-height: 100%;
+}
+
+.service-card:hover {
+  @apply shadow-lg;
+  transform: translateY(-2px);
+}
+
+.service-card-image {
+  @apply object-cover w-full;
+  aspect-ratio: 4 / 3;
+}
+
+.service-card-body {
+  @apply p-5 flex flex-col;
+  flex: 1;
+}
+
+.service-card-body h3 {
+  @apply text-xl font-semibold text-terros pb-2 pt-0;
+}
+
+.service-card-body p {
+  @apply text-sm text-gray-700 text-left;
+  flex: 1;
+}
+
+.service-card-body span {
+  @apply text-sm font-bold text-planta-fosc pt-4;
+}
+
+.home-about {
+  @apply flex flex-wrap justify-center items-center;
+}
+
+.home-about-image {
+  @apply w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0;
+}
+
+.home-about-copy {
+  @apply w-full sm:w-2/3 flex flex-col px-4 sm:px-0;
+}
+
+.home-about-copy p {
+  @apply text-center sm:text-justify text-sm sm:text-base;
+}
+
+.modalities-grid {
+  @apply grid gap-6;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.modality-item {
+  @apply flex flex-col items-center text-center;
+}
+
+.modality-icon {
+  @apply shadow rounded-full bg-planta-clar p-8 flex justify-center items-center;
+  width: 7rem;
+  height: 7rem;
+}
+
+.modality-item h3 {
+  @apply text-xl mt-4 font-semibold pb-0 pt-0;
+}
+
+.modality-item p {
+  @apply text-center text-sm;
+}
+
 .reviews-wrap {
   @apply max-w-4xl mx-auto text-center;
 }

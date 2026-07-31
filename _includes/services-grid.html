@@ -1,0 +1,17 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign home = site.data.home[lang] %}
+{% assign limit = include.limit | default: site.data.services.items.size %}
+
+<div class="services-grid">
+  {% for service in site.data.services.items limit: limit %}
+    {% assign copy = service[lang] %}
+    <a class="service-card" href="{{ copy.url }}">
+      <img class="service-card-image" src="{{ service.image }}" alt="{{ copy.title }}" width="{{ service.width }}" height="{{ service.height }}" loading="lazy" decoding="async">
+      <div class="service-card-body">
+        <h3>{{ copy.title }}</h3>
+        <p>{{ copy.text }}</p>
+        <span>{{ home.more_info }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>

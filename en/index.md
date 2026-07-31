@@ -1,86 +1,28 @@
 ---
-layout: en/default
 lang: en
+layout: en/default
 title: Berta Sanfeliu - Psychologist and Psychotherapist
 metadescription: "Psychologist with an integrative approach. Psychotherapy services in Barcelona and online in Spanish, Catalan, and English."
 ---
-<div class="flex flex-wrap">
-	<div class="bg-cover bg-top sm:bg-bottom bg-[url('/assets/images/jar-vertical.webp')] sm:bg-[url('/assets/images/jar.webp')] w-full h-screen flex justify-center items-center">
-	    <div class="text-white text-3xl font-bold text-center">
-          <h1 class="font-quicksand text-3xl text-gray-800 sm:text-white sm:text-5xl font-semibold text-center">Berta Sanfeliu</h1>
-          <h2 class="sm:text-xl text-center text-gray-800 sm:text-white">Psychologist and Psychotherapist</h2>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please."><button class="mt-4 px-6 py-2 text-2xl text-white bg-planta hover:bg-planta-fosc rounded">Contact</button></a>
-	    </div>
-	</div>
-</div>
-
-
-<div class="px-4 py-6 sm:px-8 md:py-12 lg:px-24 lg:py-16 xl:px-48 2xl:px-64 bg-gray-100">
-    <h2 class="text-3xl sm:text-3xl text-center">How may I assist you</h2>
-    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
-    <h3 class="text-center text-xs sm:text-sm font-thin text-terros pb-4 sm:pb-8">I OFFER DIFFERENT SESSION FORMATS TO ADAPT TO YOUR NEEDS.</h3>
-    <div class="flex flex-wrap justify-center items-center">
-        <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="services/individual-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Individual therapy</div></a>
-            <a href="services/couples-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Couples therapy</div></a>
-            <a href="services/online-therapy"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Online therapy</div></a>
-        </div>
-        <div class="w-full lg:w-1/2 px-4 flex flex-col items-center">
-            <a href="services/parenting-support"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Parenting support</div></a>
-            <a href="services/support-for-family-members-of-children-with-special-needs"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white text-center sm:text-left"><span class="checkmark">✓</span> Support for family members of children with special needs</div></a>
-            <a href="services/consultations-and-workshops"><div class="shadow bg-planta hover:bg-planta-fosc p-2 m-2 rounded-lg text-white"><span class="checkmark">✓</span> Consultations and workshops</div></a>
-        </div>
+{% include home-hero.html lang=page.lang %}
+{% assign home = site.data.home[page.lang] %}
+<div class="section-band bg-gray-100">
+    <h2 class="section-title">{{ home.services_title }}</h2>
+    <hr class="section-rule">
+    <h3 class="section-kicker">{{ home.services_subtitle | upcase }}</h3>
+    {% include services-grid.html lang=page.lang %}
+    <div class="section-actions">
+        <a class="reviews-button" href="/en/services/">{{ home.services_cta }}</a>
     </div>
 </div>
 
-<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-    <h2 class="text-3xl sm:text-3xl text-center">Who I am</h2>
-    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
-    <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">I CONSIDER IT A PRIVILEGE TO ACCOMPANY THE PEOPLE I WORK WITH.</h3>
-    <div class="flex flex-wrap justify-center items-center">
-        <div class="w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0">
-            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta Sanfeliu" width="684" height="684" loading="lazy" decoding="async">
-        </div>
-        <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
-            <p class="text-center sm:text-justify text-sm sm:text-base">I have a degree in Psychology from the University of Barcelona. I am a licensed psychologist, qualified to work as a <b>Clinical Psychologist</b> in the private sector, ensuring compliance with regulatory requirements.<a href="/en/about" class="underline text-blue-800"> + info</a></p>
-        </div>
-    </div>
-</div>
+{% include home-about.html lang=page.lang %}
 
-<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-gray-100 py-6 sm:py-12">
-    <h2 class="text-3xl sm:text-3xl text-center">Session modalities</h2>
-    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
-    <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">I OFFER YOU A FRIENDLY AND SAFE SPACE TO WORK TOGETHER AND ACHIEVE YOUR GOALS.</h3>
-    <div class="flex flex-wrap justify-center items-center">
-        <div class="p-4 w-full sm:w-1/2 md:w-1/4 flex flex-col items-center">
-            <div class="shadow rounded-full bg-planta-clar p-8">
-                {% include svg/sofa.md %}
-            </div>
-            <h2 class="text-xl mt-4">In-person</h2>
-            <p class="text-center sm:text-justify">In-person visits in Barcelona</p>
-        </div>
-        <div class="p-4 w-full sm:w-1/2 md:w-1/4 flex flex-col items-center">
-            <div class="shadow rounded-full bg-planta-clar p-8">
-              {% include svg/imac.md %}
-            </div>
-            <h2 class="text-xl mt-4">Online</h2>
-            <p class="text-center sm:text-justify">From the comfort of your home</p>
-        </div>
-        <div class="p-4 w-full sm:w-1/2 md:w-1/4 flex flex-col items-center">
-            <div class="shadow rounded-full bg-planta-clar p-8">
-                {% include svg/bocadillos.md %}
-            </div>
-            <h2 class="text-xl mt-4">Languages</h2>
-            <p class="text-center sm:text-justify">In English, Catalan and Spanish</p>
-        </div>
-        <div class="p-4 w-full sm:w-1/2 md:w-1/4 flex flex-col items-center">
-            <div class="shadow rounded-full bg-planta-clar p-8">
-                {% include svg/hands.md %}
-            </div>
-            <h2 class="text-xl mt-4">Formats</h2>
-            <p class="text-center sm:text-justify">Individual, couples or groups</p>
-        </div>
-    </div>
+<div class="section-band bg-gray-100">
+    <h2 class="section-title">{{ home.modalities_title }}</h2>
+    <hr class="section-rule">
+    <h3 class="section-kicker">{{ home.modalities_subtitle | upcase }}</h3>
+    {% include home-modalities.html lang=page.lang %}
 </div>
 
 

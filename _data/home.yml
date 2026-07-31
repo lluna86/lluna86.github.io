@@ -1,0 +1,81 @@
+es:
+  hero_subtitle: "Psicóloga y psicoterapeuta"
+  hero_cta: "Contacta"
+  services_title: "Cómo te puedo ayudar"
+  services_subtitle: "Diferentes formatos de sesión para adaptarme a tus necesidades."
+  services_cta: "Ver todos los servicios"
+  more_info: "Más información"
+  modalities_title: "Modalidades de sesión"
+  modalities_subtitle: "Un espacio amable y seguro para trabajar juntos y conseguir tus objetivos."
+  about_title: "Quién soy"
+  about_subtitle: "Considero un privilegio acompañar a las personas con las que trabajo."
+  about_text: "Soy Licenciada en Psicología por la Universidad de Barcelona y estoy certificada como Psicóloga General Sanitaria, título que me habilita como profesional para ejercer la psicología clínica en el sector privado, cumpliendo con los requisitos normativos nacionales."
+  about_url: /sobre-mi
+  about_cta: "+ info"
+  modalities:
+    - icon: sofa
+      title: "Presencial"
+      text: "Visitas presenciales en Barcelona"
+    - icon: imac
+      title: "Online"
+      text: "Desde la comodidad de tu hogar"
+    - icon: bocadillos
+      title: "Idiomas"
+      text: "En castellano, catalán e inglés"
+    - icon: hands
+      title: "Formatos"
+      text: "Individual, de pareja o grupal"
+ca:
+  hero_subtitle: "Psicòloga i psicoterapeuta"
+  hero_cta: "Contacta"
+  services_title: "Com et puc ajudar"
+  services_subtitle: "Diferents formats de sessió per adaptar-me a les teves necessitats."
+  services_cta: "Veure tots els serveis"
+  more_info: "Més informació"
+  modalities_title: "Modalitats de sessió"
+  modalities_subtitle: "Un espai amable i segur per treballar junts i aconseguir els teus objectius."
+  about_title: "Qui sóc"
+  about_subtitle: "Considero un privilegi acompanyar les persones amb qui treballo."
+  about_text: "Sóc Llicenciada en Psicologia per la Universitat de Barcelona i estic certificada com a Psicòloga General Sanitària per la Generalitat de Catalunya, qualificació que m'habilita per exercir la psicologia clínica en el sector privat."
+  about_url: /ca/sobre-mi
+  about_cta: "+ info"
+  modalities:
+    - icon: sofa
+      title: "Presencial"
+      text: "Visites presencials a Barcelona"
+    - icon: imac
+      title: "Online"
+      text: "Des de la comoditat de casa teva"
+    - icon: bocadillos
+      title: "Idiomes"
+      text: "En castellà, català i anglès"
+    - icon: hands
+      title: "Formats"
+      text: "Individual, de parella o grupal"
+en:
+  hero_subtitle: "Psychologist and Psychotherapist"
+  hero_cta: "Contact"
+  services_title: "How may I assist you"
+  services_subtitle: "Different session formats to adapt to your needs."
+  services_cta: "View all services"
+  more_info: "More information"
+  modalities_title: "Session modalities"
+  modalities_subtitle: "A friendly and safe space to work together and achieve your goals."
+  about_title: "Who I am"
+  about_subtitle: "I consider it a privilege to accompany the people I work with."
+  about_text: "I have a degree in Psychology from the University of Barcelona. I am a licensed psychologist, qualified to work as a Clinical Psychologist in the private sector, ensuring compliance with regulatory requirements."
+  about_url: /en/about
+  about_cta: "+ info"
+  modalities:
+    - icon: sofa
+      title: "In-person"
+      text: "In-person visits in Barcelona"
+    - icon: imac
+      title: "Online"
+      text: "From the comfort of your home"
+    - icon: bocadillos
+      title: "Languages"
+      text: "In English, Catalan and Spanish"
+    - icon: hands
+      title: "Formats"
+      text: "Individual, couples or groups"

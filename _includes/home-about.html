@@ -1,0 +1,16 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign home = site.data.home[lang] %}
+
+<div class="section-band bg-planta-light">
+    <h2 class="section-title">{{ home.about_title }}</h2>
+    <hr class="section-rule">
+    <h3 class="section-kicker">{{ home.about_subtitle | upcase }}</h3>
+    <div class="home-about">
+        <div class="home-about-image">
+            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta Sanfeliu" width="684" height="684" loading="lazy" decoding="async">
+        </div>
+        <div class="home-about-copy">
+            <p>{{ home.about_text }} <a href="{{ home.about_url }}" class="underline text-blue-800">{{ home.about_cta }}</a></p>
+        </div>
+    </div>
+</div>
