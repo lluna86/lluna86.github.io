@@ -2,6 +2,7 @@
 layout: en/default
 permalink: /en/services/consultations-and-workshops/
 title: "Consultations and workshops"
+service_key: workshops
 metadescription: "Psychological consultation for schools, teachers and families, plus workshops adapted to educational or family needs."
 ---
 <div class="flex flex-wrap">

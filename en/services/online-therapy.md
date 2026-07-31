@@ -2,6 +2,7 @@
 layout: en/default
 permalink: /en/services/online-therapy/
 title: "Online Therapy"
+service_key: online
 metadescription: "Online therapy via video call, at the preferred time and location, comfortably and easily, without the need to travel."
 ---
 <div class="flex flex-wrap">

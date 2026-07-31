@@ -1,7 +1,8 @@
 ---
 layout: ca/default
 title: "Teràpia de parella"
-permalink: ca/serveis/terapia-de-parella
+permalink: /ca/serveis/terapia-de-parella/
+service_key: couples
 metadescription: "Iniciar una teràpia de parella pot ser difícil, però és un acte de compromís en la reconstrucció de la relació i el benestar emocional de tots dos."
 ---
 

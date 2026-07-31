@@ -1,7 +1,8 @@
 ---
 layout: en/default
 title: "Individual Therapy"
-permalink: /en/services/individual-therapy
+permalink: /en/services/individual-therapy/
+service_key: individual
 metadescription: "The decision to start an individual therapy process is proof of courage, willingness to change, and pursuit of personal growth."
 ---
 <div class="flex flex-wrap">
@@ -47,4 +48,3 @@ metadescription: "The decision to start an individual therapy process is proof o
 <div class="flex flex-wrap justify-center mt-2 mb-8">
     <a href="/en/contact"><button class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">Contact me</button></a>
 </div>
-

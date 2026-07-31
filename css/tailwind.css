@@ -1683,6 +1683,28 @@ b {
   color: #6e371f;
 }
 
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.service-tags span {
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 240 231 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(108 130 106 / var(--tw-text-opacity));
+}
+
 .service-card-body p {
   flex: 1;
   text-align: left;
@@ -1691,7 +1713,7 @@ b {
   color: rgb(55 65 81);
 }
 
-.service-card-body span {
+.service-card-body strong {
   padding-top: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;

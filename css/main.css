@@ -98,12 +98,21 @@ b {
   @apply text-xl font-semibold text-terros pb-2 pt-0;
 }
 
+.service-tags {
+  @apply flex flex-wrap pb-2;
+  gap: 0.5rem;
+}
+
+.service-tags span {
+  @apply text-xs font-bold text-planta-fosc bg-planta-light rounded px-2 py-1;
+}
+
 .service-card-body p {
   @apply text-sm text-gray-700 text-left;
   flex: 1;
 }
 
-.service-card-body span {
+.service-card-body strong {
   @apply text-sm font-bold text-planta-fosc pt-4;
 }
 

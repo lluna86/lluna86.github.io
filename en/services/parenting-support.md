@@ -2,6 +2,7 @@
 layout: en/default
 permalink: /en/services/parenting-support/
 title: "Parenting Support"
+service_key: parenting
 metadescription: "In the family sessions, we will work according to the family's goals and the child's needs to achieve greater well-being."
 ---
 <div class="flex flex-wrap">

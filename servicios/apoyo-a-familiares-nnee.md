@@ -2,6 +2,7 @@
 layout: default
 title: "Apoyo a familiares de niños con NNEE"
 permalink: /servicios/apoyo-a-familiares-nnee/
+service_key: special-needs
 metadescription: "Sesiones con herramientas específicas y estrategias adaptadas a las necesidades del niño o niña frente a un diagnóstico de necesidades especiales."
 ---
 <div class="flex flex-wrap">

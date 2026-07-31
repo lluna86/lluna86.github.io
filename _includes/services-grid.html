@@ -2,15 +2,22 @@
 {% assign home = site.data.home[lang] %}
 {% assign limit = include.limit | default: site.data.services.items.size %}
 
-<div class="services-grid">
+<div class="services-grid" aria-label="{{ home.services_title }}">
   {% for service in site.data.services.items limit: limit %}
     {% assign copy = service[lang] %}
-    <a class="service-card" href="{{ copy.url }}">
+    <a class="service-card" href="{{ copy.url }}" aria-label="{{ home.more_info }}: {{ copy.title }}">
       <img class="service-card-image" src="{{ service.image }}" alt="{{ copy.title }}" width="{{ service.width }}" height="{{ service.height }}" loading="lazy" decoding="async">
       <div class="service-card-body">
         <h3>{{ copy.title }}</h3>
+        {% if copy.tags %}
+          <div class="service-tags" aria-label="{{ home.service_tags_label }}">
+            {% for tag in copy.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <p>{{ copy.text }}</p>
-        <span>{{ home.more_info }}</span>
+        <strong>{{ home.more_info }}</strong>
       </div>
     </a>
   {% endfor %}

@@ -2,6 +2,7 @@
 layout: ca/default
 permalink: /ca/serveis/terapia-online/
 title: "Teràpia en línia"
+service_key: online
 metadescription: "Teràpia en línia a través de videotrucada, en el moment i lloc que es prefereixi, de manera còmoda i senzilla, sense necessitat de desplaçar-se."
 ---
 <div class="flex flex-wrap">

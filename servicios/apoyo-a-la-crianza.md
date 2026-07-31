@@ -2,6 +2,7 @@
 layout: default
 permalink: /servicios/apoyo-a-la-crianza/
 title: "Sesiones de apoyo a la crianza"
+service_key: parenting
 metadescription: "En las sesiones enfocadas a familias trabajaremos según los objetivos familiares y necesidades del niño o niña para lograr un mayor bienestar."
 ---
 <div class="flex flex-wrap">

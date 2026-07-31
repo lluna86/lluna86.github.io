@@ -1,7 +1,8 @@
 ---
 layout: ca/default
 title: "Teràpia individual"
-permalink: ca/serveis/terapia-individual
+permalink: /ca/serveis/terapia-individual/
+service_key: individual
 metadescription: "La decisió d'iniciar un procés de teràpia individual és una mostra de valentia, voluntat de canvi i recerca de creixement personal."
 ---
 <div class="flex flex-wrap">

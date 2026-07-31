@@ -2,6 +2,7 @@
 layout: ca/default
 permalink: /ca/serveis/suport-a-la-crianca/
 title: "Sessions de suport a la criança"
+service_key: parenting
 metadescription: "En les sessions enfocades a famílies treballarem segons els objectius familiars i necessitats del nen o nena per aconseguir un major benestar."
 ---
 <div class="flex flex-wrap">

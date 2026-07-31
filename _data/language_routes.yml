@@ -23,13 +23,13 @@
   ca: /ca/legal/
   en: /en/legal/
 - key: individual-therapy
-  es: /servicios/terapia-individual
-  ca: /ca/serveis/terapia-individual
-  en: /en/services/individual-therapy
+  es: /servicios/terapia-individual/
+  ca: /ca/serveis/terapia-individual/
+  en: /en/services/individual-therapy/
 - key: couples-therapy
-  es: /servicios/terapia-de-pareja
-  ca: /ca/serveis/terapia-de-parella
-  en: /en/services/couples-therapy
+  es: /servicios/terapia-de-pareja/
+  ca: /ca/serveis/terapia-de-parella/
+  en: /en/services/couples-therapy/
 - key: online-therapy
   es: /servicios/terapia-online/
   ca: /ca/serveis/terapia-online/

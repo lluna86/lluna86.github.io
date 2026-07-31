@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Terapia de pareja"
-permalink: /servicios/terapia-de-pareja
+permalink: /servicios/terapia-de-pareja/
+service_key: couples
 metadescription: "Iniciar terapia de pareja puede ser difícil, pero es un acto de compromiso en la reconstrucción de la relación y el bienestar emocional de ambos."
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: ca/default
-permalink: ca/serveis/assessorament-i-tallers/
+permalink: /ca/serveis/assessorament-i-tallers/
 title: "Assessorament i tallers"
+service_key: workshops
 metadescription: "Assessorament psicològic per a escoles, docents, mares i pares, i tallers adaptats a necessitats educatives o familiars."
 ---
 <div class="flex flex-wrap">

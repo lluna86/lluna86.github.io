@@ -2,6 +2,7 @@
 layout: default
 permalink: /servicios/asesoramientos-y-talleres/
 title: "Asesoramientos y talleres"
+service_key: workshops
 metadescription: "Asesoramiento psicológico para escuelas, docentes, madres y padres, y talleres adaptados a necesidades educativas o familiares."
 ---
 <div class="flex flex-wrap">

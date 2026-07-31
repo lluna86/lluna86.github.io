@@ -1,7 +1,8 @@
 ---
 layout: en/default
 title: "Couples Therapy"
-permalink: /en/services/couples-therapy
+permalink: /en/services/couples-therapy/
+service_key: couples
 metadescription: "Starting couples therapy can be difficult, but it's an act of commitment to rebuilding the relationship and the emotional well-being of both partners."
 ---
 

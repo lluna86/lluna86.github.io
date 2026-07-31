@@ -3,6 +3,12 @@
 {% assign description = page.metadescription | default: site.description %}
 {% assign canonical_url = page.url | absolute_url %}
 {% assign current_route = nil %}
+{% assign og_locale = "es_ES" %}
+{% if lang == "ca" %}
+  {% assign og_locale = "ca_ES" %}
+{% elsif lang == "en" %}
+  {% assign og_locale = "en_GB" %}
+{% endif %}
 
 {% for route in site.data.language_routes %}
   {% if route.es == page.url or route.ca == page.url or route.en == page.url %}
@@ -14,6 +20,8 @@
       <meta charset="utf-8">
       <title>{{ title }}</title>
       <meta name="description" content="{{ description }}">
+      <meta name="robots" content="index, follow">
+      <meta name="theme-color" content="#87977e">
       <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://platform.docplanner.com https://maps.googleapis.com https://maps.gstatic.com;
@@ -29,11 +37,15 @@
         <link rel="alternate" hreflang="x-default" href="{{ current_route.es | absolute_url }}">
       {% endif %}
       <meta property="og:type" content="website">
+      <meta property="og:locale" content="{{ og_locale }}">
       <meta property="og:site_name" content="{{ site.title }}">
       <meta property="og:title" content="{{ title }}">
       <meta property="og:description" content="{{ description }}">
       <meta property="og:url" content="{{ canonical_url }}">
       <meta property="og:image" content="{{ '/assets/images/berta.webp' | absolute_url }}">
+      <meta property="og:image:width" content="684">
+      <meta property="og:image:height" content="684">
+      <meta property="og:image:alt" content="Berta Sanfeliu">
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="{{ title }}">
       <meta name="twitter:description" content="{{ description }}">
@@ -46,22 +58,5 @@
       <link rel="icon" href="/assets/images/logos/favicon.ico" type="image/x-icon" />
       <link rel="shortcut icon" href="/assets/images/logos/favicon.ico" type="image/x-icon" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Berta Sanfeliu Psicología",
-        "url": "{{ site.url }}",
-        "image": "{{ '/assets/images/berta.webp' | absolute_url }}",
-        "telephone": "{{ site.data.contact.phone_display }}",
-        "email": "{{ site.data.contact.email }}",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Carrer de Tarragona, 84",
-          "addressLocality": "Barcelona",
-          "addressCountry": "ES"
-        },
-        "availableLanguage": ["Spanish", "Catalan", "English"]
-      }
-      </script>
+      {% include structured-data.html lang=lang %}
 </head>
