@@ -9,9 +9,9 @@ es:
   address: "c/ Tarragona, 84"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."
   reviews:
-    title: "Reseñas en Google Maps"
-    subtitle: "Lee las opiniones de otras personas y encuentra la consulta en Google Maps."
-    cta: "Ver reseñas"
+    title: "Opiniones de pacientes"
+    subtitle: "Algunas experiencias compartidas por personas que han iniciado un proceso terapéutico conmigo."
+    cta: "Ver más opiniones"
     secondary_cta: "Cómo llegar"
 ca:
   phone_label: "Telèfon"
@@ -19,9 +19,9 @@ ca:
   address: "c/ Tarragona, 84"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hola%21%20M%27interessaria%20rebre%20informaci%C3%B3%20sobre%20les%20visites%20de%20psicologia%2C%20si%20us%20plau."
   reviews:
-    title: "Ressenyes a Google Maps"
-    subtitle: "Llegeix les opinions d'altres persones i troba la consulta a Google Maps."
-    cta: "Veure ressenyes"
+    title: "Opinions de pacients"
+    subtitle: "Algunes experiències compartides per persones que han iniciat un procés terapèutic amb mi."
+    cta: "Veure més opinions"
     secondary_cta: "Com arribar-hi"
 en:
   phone_label: "Phone number"
@@ -29,7 +29,7 @@ en:
   address: "84 Tarragona Street"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please."
   reviews:
-    title: "Google Maps reviews"
-    subtitle: "Read what other people say and find the practice on Google Maps."
-    cta: "Read reviews"
+    title: "Patient reviews"
+    subtitle: "Some experiences shared by people who have started a therapeutic process with me."
+    cta: "Read more reviews"
     secondary_cta: "Get directions"

@@ -1605,16 +1605,107 @@ b {
 }
 
 .reviews-wrap {
-  max-width: 48rem;
+  max-width: 56rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
 .reviews-stars {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #cbc594;
+}
+
+.reviews-carousel {
+  margin-top: 1.5rem;
+}
+
+.reviews-track {
+  position: relative;
+  min-height: 15rem;
+}
+
+.review-card {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  max-width: 46rem;
+  border-radius: 0.25rem;
+  background-color: rgb(255 255 255);
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.review-card.is-active {
+  display: block;
+}
+
+.review-text {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(55 65 81);
+}
+
+.review-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(75 85 99);
+  gap: 0.75rem;
+}
+
+.review-author {
+  font-weight: 700;
+  color: #6e371f;
+}
+
+.reviews-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.reviews-control {
+  display: flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #87977e;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: rgb(255 255 255);
+}
+
+.reviews-control:hover {
+  background-color: #6c826a;
+}
+
+.reviews-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.reviews-dot {
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 9999px;
+  background-color: #c3cecc;
+}
+
+.reviews-dot.is-active {
+  background-color: #6c826a;
 }
 
 .reviews-actions {
@@ -1657,5 +1748,15 @@ b {
 
   .contact-card:first-child {
     padding-top: 0;
+  }
+
+  .review-text {
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .review-meta {
+    justify-content: flex-start;
   }
 }

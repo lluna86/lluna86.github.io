@@ -50,11 +50,75 @@ b {
 }
 
 .reviews-wrap {
-  @apply max-w-3xl mx-auto text-center;
+  @apply max-w-4xl mx-auto text-center;
 }
 
 .reviews-stars {
-  @apply text-3xl text-terros-clar;
+  @apply text-2xl text-terros-clar;
+}
+
+.reviews-carousel {
+  @apply mt-6;
+}
+
+.reviews-track {
+  @apply relative;
+  min-height: 15rem;
+}
+
+.review-card {
+  @apply bg-white shadow text-left mx-auto p-6 rounded;
+  display: none;
+  max-width: 46rem;
+}
+
+.review-card.is-active {
+  display: block;
+}
+
+.review-text {
+  @apply text-gray-700 text-center sm:text-left text-base sm:text-lg;
+}
+
+.review-meta {
+  @apply flex flex-wrap justify-center sm:justify-start text-sm text-gray-600 pt-4;
+  gap: 0.75rem;
+}
+
+.review-author {
+  @apply font-bold text-terros;
+}
+
+.reviews-controls {
+  @apply flex justify-center items-center pt-4;
+  gap: 1rem;
+}
+
+.reviews-control {
+  @apply bg-planta text-white rounded-full flex justify-center items-center;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.reviews-control:hover {
+  @apply bg-planta-fosc;
+}
+
+.reviews-dots {
+  @apply flex justify-center items-center;
+  gap: 0.5rem;
+}
+
+.reviews-dot {
+  @apply rounded-full bg-planta-clar;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.reviews-dot.is-active {
+  @apply bg-planta-fosc;
 }
 
 .reviews-actions {
