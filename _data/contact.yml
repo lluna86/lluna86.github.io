@@ -1,0 +1,35 @@
+email: psicologia@bertasanfeliu.com
+phone_display: "(+34) 649 80 69 62"
+phone_href: "tel:+34649806962"
+maps_url: "https://www.google.com/maps/search/?api=1&query=Berta%20Sanfeliu%20Psicologia%20Carrer%20de%20Tarragona%2084%20Barcelona"
+
+es:
+  phone_label: "Teléfono"
+  location_label: "Ubicación"
+  address: "c/ Tarragona, 84"
+  whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."
+  reviews:
+    title: "Reseñas en Google Maps"
+    subtitle: "Lee las opiniones de otras personas y encuentra la consulta en Google Maps."
+    cta: "Ver reseñas"
+    secondary_cta: "Cómo llegar"
+ca:
+  phone_label: "Telèfon"
+  location_label: "Ubicació"
+  address: "c/ Tarragona, 84"
+  whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hola%21%20M%27interessaria%20rebre%20informaci%C3%B3%20sobre%20les%20visites%20de%20psicologia%2C%20si%20us%20plau."
+  reviews:
+    title: "Ressenyes a Google Maps"
+    subtitle: "Llegeix les opinions d'altres persones i troba la consulta a Google Maps."
+    cta: "Veure ressenyes"
+    secondary_cta: "Com arribar-hi"
+en:
+  phone_label: "Phone number"
+  location_label: "Location"
+  address: "84 Tarragona Street"
+  whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please."
+  reviews:
+    title: "Google Maps reviews"
+    subtitle: "Read what other people say and find the practice on Google Maps."
+    cta: "Read reviews"
+    secondary_cta: "Get directions"

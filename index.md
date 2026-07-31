@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: es
 title: Berta Sanfeliu - Psicóloga y psicoterapeuta
 metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios de psicoterapia en Barcelona y online en castellano, catalán e inglés."
 ---
@@ -84,45 +85,5 @@ metadescription: "Psicóloga General Sanitaria con enfoque integrador. Servicios
 </div>
 
 
-<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-    <h2 class="text-3xl sm:text-3xl text-center">Contacta</h2>
-    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
-    <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">PREGÚNTAME Y RESOLVERÉ TUS DUDAS POR EMAIL, TELÉFONO, WHATSAPP O RELLENDANDO EL FORMULARIO.</h3>
-    <div class="flex flex-wrap justify-center items-start">
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-4 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                <div class="aspect-square flex justify-center items-center">
-                    {% include svg/mail.md %}
-                </div>
-            </div>
-            <div class="pt-2 font-bold w-full text-center">Email</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="mailto:psicologia@bertasanfeliu.com">psicologia@bertasanfeliu.com</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                <div class="w-full aspect-square flex justify-center items-center">
-                    {% include svg/phone.md %}
-                </div>
-            </div>
-            <div class="pt-2  font-bold w-full text-center">Teléfono</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="tel:+34649806962">(+34) 649 80 69 62</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg  justify-center items-center flex">
-                {% include svg/whatsapp.md %}
-            </div>
-            <div class="pt-2 font-bold w-full text-center">WhatsApp</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor.">(+34) 649 80 69 62</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                {% include svg/pin.md %}
-            </div>
-            <div class="pt-2 font-bold w-full text-center">Ubicación</div>
-            <div class="w-full text-center">c/ Tarragona, 84</div>
-        </div>
-    </div>
-    <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-            {% include contact-form.html %}
-    </div>
-</div>
+{% include contact-section.html title="Contacta" subtitle="PREGÚNTAME Y RESOLVERÉ TUS DUDAS POR EMAIL, TELÉFONO, WHATSAPP O RELLENANDO EL FORMULARIO." %}
+{% include google-reviews.html %}

@@ -1,0 +1,17 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+
+<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
+    <h2 class="text-3xl sm:text-3xl text-center">{{ include.title }}</h2>
+    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
+    <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">{{ include.subtitle }}</h3>
+    {% include contact-cards.html lang=lang %}
+    <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
+        {% if lang == "ca" %}
+            {% include ca/contact-form.html %}
+        {% elsif lang == "en" %}
+            {% include en/contact-form.html %}
+        {% else %}
+            {% include contact-form.html %}
+        {% endif %}
+    </div>
+</div>

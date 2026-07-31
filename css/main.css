@@ -37,6 +37,45 @@ b {
     font-feature-settings: "liga" 0; /* Desactiva ligaduras que podrían alterar la representación */
 }
 
+.contact-card {
+  @apply justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0 text-gray-900;
+}
+
+.contact-card:first-child {
+  @apply pt-4 sm:pt-0;
+}
+
+.contact-card:hover {
+  @apply underline text-terros;
+}
+
+.reviews-wrap {
+  @apply max-w-3xl mx-auto text-center;
+}
+
+.reviews-stars {
+  @apply text-3xl text-terros-clar;
+}
+
+.reviews-actions {
+  @apply flex flex-wrap justify-center pt-4;
+  gap: 0.75rem;
+}
+
+.reviews-button {
+  @apply inline-block px-6 py-2 text-white bg-planta hover:bg-planta-fosc rounded;
+}
+
+.reviews-button-secondary {
+  @apply inline-block px-6 py-2 rounded;
+  border: 1px solid #87977e;
+  color: #6c826a;
+}
+
+.reviews-button-secondary:hover {
+  background-color: #e4f0f2;
+}
+
 
 
 @tailwind utilities;

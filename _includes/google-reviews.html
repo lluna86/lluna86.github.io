@@ -1,0 +1,16 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign contact = site.data.contact %}
+{% assign reviews = contact[lang].reviews %}
+
+<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-gray-100 py-6 sm:py-12">
+    <h2 class="text-3xl sm:text-3xl text-center">{{ reviews.title }}</h2>
+    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
+    <div class="reviews-wrap">
+        <div class="reviews-stars" aria-label="5 stars">★★★★★</div>
+        <p class="text-gray-700">{{ reviews.subtitle }}</p>
+        <div class="reviews-actions">
+            <a class="reviews-button" target="_blank" rel="noopener" href="{{ contact.maps_url }}">{{ reviews.cta }}</a>
+            <a class="reviews-button-secondary" target="_blank" rel="noopener" href="{{ contact.maps_url }}">{{ reviews.secondary_cta }}</a>
+        </div>
+    </div>
+</div>

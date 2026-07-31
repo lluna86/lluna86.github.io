@@ -1,0 +1,38 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign contact = site.data.contact %}
+{% assign copy = contact[lang] %}
+
+<div class="flex flex-wrap justify-center items-start">
+    <a class="contact-card" target="_blank" rel="noopener" href="mailto:{{ contact.email }}">
+        <div class="w-20 h-20 rounded-lg justify-center items-center flex">
+            <div class="aspect-square flex justify-center items-center">
+                {% include svg/mail.md %}
+            </div>
+        </div>
+        <div class="pt-2 font-bold w-full text-center">Email</div>
+        <div class="w-full text-center">{{ contact.email }}</div>
+    </a>
+    <a class="contact-card" target="_blank" rel="noopener" href="{{ contact.phone_href }}">
+        <div class="w-20 h-20 rounded-lg justify-center items-center flex">
+            <div class="w-full aspect-square flex justify-center items-center">
+                {% include svg/phone.md %}
+            </div>
+        </div>
+        <div class="pt-2 font-bold w-full text-center">{{ copy.phone_label }}</div>
+        <div class="w-full text-center">{{ contact.phone_display }}</div>
+    </a>
+    <a class="contact-card" target="_blank" rel="noopener" href="{{ copy.whatsapp_url }}">
+        <div class="w-20 h-20 rounded-lg justify-center items-center flex">
+            {% include svg/whatsapp.md %}
+        </div>
+        <div class="pt-2 font-bold w-full text-center">WhatsApp</div>
+        <div class="w-full text-center">{{ contact.phone_display }}</div>
+    </a>
+    <a class="contact-card" target="_blank" rel="noopener" href="{{ contact.maps_url }}">
+        <div class="w-20 h-20 rounded-lg justify-center items-center flex">
+            {% include svg/pin.md %}
+        </div>
+        <div class="pt-2 font-bold w-full text-center">{{ copy.location_label }}</div>
+        <div class="w-full text-center">{{ copy.address }}</div>
+    </a>
+</div>

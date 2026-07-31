@@ -1,5 +1,6 @@
 ---
 layout: en/default
+lang: en
 title: Berta Sanfeliu - Psychologist and Psychotherapist
 metadescription: "Psychologist with an integrative approach. Psychotherapy services in Barcelona and online in Spanish, Catalan, and English."
 ---
@@ -83,47 +84,5 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
 </div>
 
 
-<div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-    <h2 class="text-3xl sm:text-3xl text-center">Contact me</h2>
-    <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
-    <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">ASK ME AND I WILL ANSWER YOUR QUESTIONS BY EMAIL, PHONE, WHATSAPP, OR BY FILLING OUT THE FORM.</h3>
-    <div class="flex flex-wrap justify-center items-start">
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-4 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                <div class="aspect-square flex justify-center items-center">
-                    {% include svg/mail.md %}
-                </div>
-            </div>
-            <div class="pt-2 font-bold w-full text-center">Email</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="mailto:psicologia@bertasanfeliu.com">psicologia@bertasanfeliu.com</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                <div class="w-full aspect-square flex justify-center items-center">
-                    {% include svg/phone.md %}
-                </div>
-            </div>
-            <div class="pt-2  font-bold w-full text-center">Phone number</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="tel:+34649806962">(+34) 649 80 69 62</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg  justify-center items-center flex">
-                {% include svg/whatsapp.md %}
-            </div>
-            <div class="pt-2 font-bold w-full text-center">WhatsApp</div>
-            <div class="w-full hover:underline text-center"><a target="_blank" href="https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please.">(+34) 649 80 69 62</a></div>
-        </div>
-        <div class="justify-center flex flex-wrap w-full sm:w-1/4 pt-8 sm:pt-0">
-            <div class="w-20 h-20 rounded-lg justify-center items-center flex">
-                {% include svg/pin.md %}
-            </div>
-            <div class="pt-2 font-bold w-full text-center">Location</div>
-            <div class="w-full text-center">84 Tarragona Street</div>
-        </div>
-    </div>
-    <div class="px-4 sm:px-8 lg:px-24 xl:px-48 2xl:px-64 bg-planta-light py-6 sm:py-12">
-            {% include /en/contact-form.html %}
-    </div>
-</div>
-
-
+{% include contact-section.html title="Contact me" subtitle="ASK ME AND I WILL ANSWER YOUR QUESTIONS BY EMAIL, PHONE, WHATSAPP, OR BY FILLING OUT THE FORM." %}
+{% include google-reviews.html %}
