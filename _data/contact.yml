@@ -2,6 +2,8 @@ email: psicologia@bertasanfeliu.com
 phone_display: "(+34) 649 80 69 62"
 phone_href: "tel:+34649806962"
 maps_url: "https://www.google.com/maps/search/?api=1&query=Berta%20Sanfeliu%20Psicologia%20Carrer%20de%20Tarragona%2084%20Barcelona"
+google_maps_api_key: ""
+google_place_id: ""
 
 es:
   phone_label: "Teléfono"
@@ -9,9 +11,10 @@ es:
   address: "c/ Tarragona, 84"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=%C2%A1Hola!%20Me%20interesar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20las%20visitas%20de%20psicolog%C3%ADa,%20por%20favor."
   reviews:
-    title: "Opiniones de pacientes"
-    subtitle: "Algunas experiencias compartidas por personas que han iniciado un proceso terapéutico conmigo."
-    cta: "Ver más opiniones"
+    title: "Reseñas en Google Maps"
+    subtitle: "Experiencias compartidas por personas que han iniciado un proceso terapéutico conmigo."
+    loading: "Cargando reseñas de Google Maps..."
+    cta: "Ver en Google Maps"
     secondary_cta: "Cómo llegar"
 ca:
   phone_label: "Telèfon"
@@ -19,9 +22,10 @@ ca:
   address: "c/ Tarragona, 84"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hola%21%20M%27interessaria%20rebre%20informaci%C3%B3%20sobre%20les%20visites%20de%20psicologia%2C%20si%20us%20plau."
   reviews:
-    title: "Opinions de pacients"
-    subtitle: "Algunes experiències compartides per persones que han iniciat un procés terapèutic amb mi."
-    cta: "Veure més opinions"
+    title: "Ressenyes a Google Maps"
+    subtitle: "Experiències compartides per persones que han iniciat un procés terapèutic amb mi."
+    loading: "Carregant ressenyes de Google Maps..."
+    cta: "Veure a Google Maps"
     secondary_cta: "Com arribar-hi"
 en:
   phone_label: "Phone number"
@@ -29,7 +33,8 @@ en:
   address: "84 Tarragona Street"
   whatsapp_url: "https://api.whatsapp.com/send?phone=34649806962&text=Hello%21%20I%20would%20be%20interested%20in%20receiving%20information%20about%20therapy%20sessions%2C%20please."
   reviews:
-    title: "Patient reviews"
-    subtitle: "Some experiences shared by people who have started a therapeutic process with me."
-    cta: "Read more reviews"
+    title: "Google Maps reviews"
+    subtitle: "Experiences shared by people who have started a therapeutic process with me."
+    loading: "Loading Google Maps reviews..."
+    cta: "View on Google Maps"
     secondary_cta: "Get directions"

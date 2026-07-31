@@ -18,14 +18,22 @@
     }
   }
 
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('[data-review-carousel]').forEach(function(carousel) {
+  function setupReviewCarousel(carousel) {
       const cards = Array.from(carousel.querySelectorAll('[data-review-card]'));
       const dots = Array.from(carousel.querySelectorAll('[data-review-dot]'));
-      const prev = carousel.querySelector('[data-review-prev]');
-      const next = carousel.querySelector('[data-review-next]');
+      let prev = carousel.querySelector('[data-review-prev]');
+      let next = carousel.querySelector('[data-review-next]');
       let current = 0;
       let intervalId;
+
+      if (carousel.reviewSetup) {
+        const prevClone = prev.cloneNode(true);
+        const nextClone = next.cloneNode(true);
+        prev.replaceWith(prevClone);
+        next.replaceWith(nextClone);
+        prev = prevClone;
+        next = nextClone;
+      }
 
       function showReview(index) {
         current = (index + cards.length) % cards.length;
@@ -41,6 +49,7 @@
         intervalId = window.setInterval(function() {
           showReview(current + 1);
         }, 6500);
+        carousel.reviewIntervalId = intervalId;
       }
 
       function restart() {
@@ -52,6 +61,7 @@
         return;
       }
 
+      window.clearInterval(carousel.reviewIntervalId);
       prev.addEventListener('click', function() {
         showReview(current - 1);
         restart();
@@ -67,5 +77,70 @@
         });
       });
       start();
+      carousel.reviewSetup = true;
+  }
+
+  function renderReviewCarousel(carousel, reviews) {
+    const track = carousel.querySelector('.reviews-track');
+    const dotsWrap = carousel.querySelector('[data-review-dots]');
+    if (!track || !dotsWrap || !reviews.length) {
+      return;
+    }
+
+    track.innerHTML = reviews.map(function(review, index) {
+      const author = review.author_name || 'Google Maps';
+      const date = review.relative_time_description || '';
+      const text = review.text || '';
+      return [
+        '<article class="review-card' + (index === 0 ? ' is-active' : '') + '" data-review-card>',
+        '<div class="reviews-stars" aria-label="' + Number(review.rating || 5) + ' stars">' + '★'.repeat(Number(review.rating || 5)) + '</div>',
+        '<p class="review-text">“' + escapeHtml(text) + '”</p>',
+        '<div class="review-meta">',
+        '<span class="review-author">' + escapeHtml(author) + '</span>',
+        date ? '<span>' + escapeHtml(date) + '</span>' : '',
+        '<span>' + escapeHtml(carousel.dataset.googleSource || 'Google Maps') + '</span>',
+        '</div>',
+        '</article>'
+      ].join('');
+    }).join('');
+
+    dotsWrap.innerHTML = reviews.map(function(_, index) {
+      return '<button class="reviews-dot' + (index === 0 ? ' is-active' : '') + '" type="button" data-review-dot="' + index + '" aria-label="Show review ' + (index + 1) + '"></button>';
+    }).join('');
+
+    setupReviewCarousel(carousel);
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  window.initGoogleReviews = function() {
+    document.querySelectorAll('[data-review-carousel][data-google-place-id]').forEach(function(carousel) {
+      const placeId = carousel.dataset.googlePlaceId;
+      if (!placeId || !window.google || !google.maps || !google.maps.places) {
+        return;
+      }
+
+      const serviceContainer = document.createElement('div');
+      const service = new google.maps.places.PlacesService(serviceContainer);
+      service.getDetails({
+        placeId: placeId,
+        fields: ['reviews', 'rating', 'user_ratings_total', 'url']
+      }, function(place, status) {
+        if (status !== google.maps.places.PlacesServiceStatus.OK || !place || !place.reviews || !place.reviews.length) {
+          return;
+        }
+        renderReviewCarousel(carousel, place.reviews);
+      });
     });
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('[data-review-carousel]').forEach(setupReviewCarousel);
   });
