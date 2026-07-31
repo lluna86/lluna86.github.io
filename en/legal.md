@@ -1,6 +1,8 @@
 ---
 layout: en/default
 permalink: /en/legal/
+title: "Legal notice"
+metadescription: "Legal notice, terms of use and privacy policy for Berta Sanfeliu Psychology."
 ---
 <div class="px-4 sm:px-8 md:py-12 lg:px-24 lg:py-12 xl:px-48 2xl:px-64">
 	<h1 class="pb-8">Legal Text</h1>

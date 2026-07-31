@@ -1,6 +1,8 @@
 ---
 layout: ca/default
 permalink: /ca/legal/
+title: "Avís legal"
+metadescription: "Avís legal, condicions d'ús i política de privacitat de Berta Sanfeliu Psicologia."
 ---
 <div class="px-4 sm:px-8 md:py-12 lg:px-24 lg:py-12 xl:px-48 2xl:px-64">
 	<h1 class="pb-8">Text legal</h1>

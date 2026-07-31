@@ -41,7 +41,7 @@ metadescription: "Psicòloga General Sanitària amb enfocament integrador. Serve
     <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">CONSIDERO UN PRIVILEGI ACOMPANYAR A LES PERSONES AMB QUI TREBALLO.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0">
-            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
+            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta Sanfeliu" width="684" height="684" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
             <p class="text-center sm:text-justify text-sm sm:text-base">Sóc Llicenciada en Psicologia per la Universitat de Barcelona i estic certificada com a <b>Psicòloga General Sanitària</b> per la Generalitat de Catalunya, qualificació que m'habilita per exercir la psicologia clínica en el sector privat, complint amb tots els requisits normatius. <a href="/ca/sobre-mi" class="underline text-blue-800">+ info</a></p>

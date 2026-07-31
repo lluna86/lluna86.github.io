@@ -1,5 +1,6 @@
 ---
 layout: ca/default
+title: "Suport a familiars d'infants amb NEE"
 permalink: /ca/serveis/suport-a-familiars-nnee/
 metadescription: "Sessions amb eines específiques i estratègies adaptades a les necessitats del nen o nena davant un diagnòstic de necessitats especials."
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /informacion-util/
+title: "Información útil"
 metadescription: "Resolución a preguntas frecuentes y forma de contacto en caso de haber otras cuestiones específicas."
 ---
 <div class="flex flex-wrap">

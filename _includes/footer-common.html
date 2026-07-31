@@ -1,0 +1,33 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign contact = site.data.contact %}
+{% assign copy = contact[lang] %}
+
+<footer class="bg-gray-100 py-12">
+  <div class="px-10 lg:px-48 xxl:px-64 text-gray-700 flex flex-wrap justify-between items-start">
+    <ul class="text-left pb-6 sm:pb-0">
+      <li class="text-xl font-bold">Berta Sanfeliu</li>
+      {% if lang == "ca" %}
+        <li>Psicòloga i psicoterapeuta</li>
+      {% elsif lang == "en" %}
+        <li>Psychologist and Psychotherapist</li>
+      {% else %}
+        <li>Psicóloga y psicoterapeuta</li>
+      {% endif %}
+    </ul>
+    <ul class="text-left sm:text-right text-sm">
+      <li><a class="link" href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+      <li><a class="link" href="{{ contact.phone_href }}">{{ contact.phone_display }}</a></li>
+      <li><a class="link" target="_blank" rel="noopener" href="{{ contact.maps_url }}">{{ copy.address }}</a></li>
+      <li class="pt-2">
+        {% if lang == "ca" %}
+          <a class="link" href="/ca/legal/">Legal</a>
+        {% elsif lang == "en" %}
+          <a class="link" href="/en/legal/">Legal</a>
+        {% else %}
+          <a class="link" href="/legal/">Legal</a>
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+</footer>
+<script src="{{ site.baseurl}}/js/init.js"></script>

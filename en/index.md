@@ -39,7 +39,7 @@ metadescription: "Psychologist with an integrative approach. Psychotherapy servi
     <h3 class="text-xs sm:text-sm text-center font-thin text-terros pb-4 sm:pb-8">I CONSIDER IT A PRIVILEGE TO ACCOMPANY THE PEOPLE I WORK WITH.</h3>
     <div class="flex flex-wrap justify-center items-center">
         <div class="w-full sm:w-1/3 flex flex-col items-center justify-center px-4 sm:px-0">
-            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta">
+            <img class="sm:pb-0 w-32 sm:w-48 rounded-full" src="/assets/images/berta.webp" alt="Berta Sanfeliu" width="684" height="684" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-2/3 flex flex-col px-4 sm:px-0">
             <p class="text-center sm:text-justify text-sm sm:text-base">I have a degree in Psychology from the University of Barcelona. I am a licensed psychologist, qualified to work as a <b>Clinical Psychologist</b> in the private sector, ensuring compliance with regulatory requirements.<a href="/en/about" class="underline text-blue-800"> + info</a></p>

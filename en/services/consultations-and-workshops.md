@@ -2,6 +2,7 @@
 layout: en/default
 permalink: /en/services/consultations-and-workshops/
 title: "Consultations and workshops"
+metadescription: "Psychological consultation for schools, teachers and families, plus workshops adapted to educational or family needs."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/plantas.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">

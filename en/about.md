@@ -20,7 +20,7 @@ metadescription: "Through my years of training, I discovered that what I am most
             <p class="font-bold text-terros text-center text-lg pt-4"><b>I consider it a privilege to accompany the people I work with.</b></p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
-            <img class="" src="/assets/images/bertafull.webp" alt="Imagen de Berta">
+            <img class="" src="/assets/images/bertafull.webp" alt="Imagen de Berta" width="672" height="1008" loading="lazy" decoding="async">
         </div>
     </div>
     <div class="py-8 lg:px-64 xxl:px-64">
@@ -33,23 +33,23 @@ metadescription: "Through my years of training, I discovered that what I am most
         </div>
         <div class="flex flex-wrap justify-center items-center pt-8">
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.webp" alt="Universidad de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.webp" alt="Universidad de Barcelona" width="984" height="250" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.webp" alt="Universidad Autónoma de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.webp" alt="Universidad Autónoma de Barcelona" width="1000" height="600" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.webp" alt="Universidad Ramon Llull">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.webp" alt="Universidad Ramon Llull" width="630" height="320" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.webp" alt="Centro Dendros">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.webp" alt="Centro Dendros" width="6046" height="2044" loading="lazy" decoding="async">
         </div>
     </div>
     </div>
     <div class="pt-12 bg-planta-light flex flex-wrap pb-12 lg:px-64 xxl:px-64">
         <h2 class="text-3xl text-center w-full">Approach</h2>
         <div class="flex flex-wrap">
-            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.webp" alt="Enfoque" style="aspect-ratio: 1 / 1;">
+            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.webp" alt="Enfoque" width="1591" height="2386" loading="lazy" decoding="async" style="aspect-ratio: 1 / 1;">
             <div class="w-full lg:w-3/4 sm:pl-4 text-justify px-8 lg:pl-8">
                 <p>My initial training focused on <b>Cognitive-Behavioral Therapy</b>, recognized for its effectiveness in treating disorders such as anxiety and mood disorders. In my current practice, I use an <b>Integrative Approach</b>, combining various therapeutic techniques adapted to the unique needs of each individual.</p>
                 <p>I understand psychology sessions as a process of <b>facilitating change and personal growth</b>, where the entirety of the person (emotions, thoughts, body, life history, etc.) is considered, and not only the crisis or current situation that prompted the consultation.</p>

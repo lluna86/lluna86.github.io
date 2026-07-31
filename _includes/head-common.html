@@ -1,0 +1,67 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% assign title = page.title | default: site.title %}
+{% assign description = page.metadescription | default: site.description %}
+{% assign canonical_url = page.url | absolute_url %}
+{% assign current_route = nil %}
+
+{% for route in site.data.language_routes %}
+  {% if route.es == page.url or route.ca == page.url or route.en == page.url %}
+    {% assign current_route = route %}
+  {% endif %}
+{% endfor %}
+
+<head>
+      <meta charset="utf-8">
+      <title>{{ title }}</title>
+      <meta name="description" content="{{ description }}">
+      <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://platform.docplanner.com https://maps.googleapis.com https://maps.gstatic.com;
+    frame-src 'self' https://widgets.doctoralia.es;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+">
+      <link rel="canonical" href="{{ canonical_url }}">
+      {% if current_route %}
+        <link rel="alternate" hreflang="es" href="{{ current_route.es | absolute_url }}">
+        <link rel="alternate" hreflang="ca" href="{{ current_route.ca | absolute_url }}">
+        <link rel="alternate" hreflang="en" href="{{ current_route.en | absolute_url }}">
+        <link rel="alternate" hreflang="x-default" href="{{ current_route.es | absolute_url }}">
+      {% endif %}
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="{{ site.title }}">
+      <meta property="og:title" content="{{ title }}">
+      <meta property="og:description" content="{{ description }}">
+      <meta property="og:url" content="{{ canonical_url }}">
+      <meta property="og:image" content="{{ '/assets/images/berta.webp' | absolute_url }}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{{ title }}">
+      <meta name="twitter:description" content="{{ description }}">
+      <meta name="twitter:image" content="{{ '/assets/images/berta.webp' | absolute_url }}">
+      <link rel="stylesheet" href="{{ site.baseurl}}/css/tailwind.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+      <link rel="icon" href="/assets/images/logos/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="/assets/images/logos/favicon.ico" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Berta Sanfeliu Psicología",
+        "url": "{{ site.url }}",
+        "image": "{{ '/assets/images/berta.webp' | absolute_url }}",
+        "telephone": "{{ site.data.contact.phone_display }}",
+        "email": "{{ site.data.contact.email }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carrer de Tarragona, 84",
+          "addressLocality": "Barcelona",
+          "addressCountry": "ES"
+        },
+        "availableLanguage": ["Spanish", "Catalan", "English"]
+      }
+      </script>
+</head>

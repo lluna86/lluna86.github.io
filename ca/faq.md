@@ -1,6 +1,7 @@
 ---
 layout: ca/default
 permalink: /ca/informacio-util/
+title: "Informació útil"
 metadescription: "Resolució a preguntes freqüents i forma de contacte en cas d'haver-hi altres qüestions específiques."
 ---
 <div class="flex flex-wrap">
@@ -85,7 +86,7 @@ metadescription: "Resolució a preguntes freqüents i forma de contacte en cas d
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Si estàs interessat a iniciar sessions de psicologia amb mi, pots sol·licitar una trucada telefònica gratuïta d'uns 20 minuts per <a class="link" href="/contacta">qualsevol mitjà de contacte.</a></p>
+                <p class="text-gray-600">Si estàs interessat a iniciar sessions de psicologia amb mi, pots sol·licitar una trucada telefònica gratuïta d'uns 20 minuts per <a class="link" href="/ca/contacta/">qualsevol mitjà de contacte.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>
@@ -95,7 +96,7 @@ metadescription: "Resolució a preguntes freqüents i forma de contacte en cas d
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">Si tens més preguntes pots contactar amb mi <a class="link" href="/contacta">des d'aquí.</a></p>
+                <p class="text-gray-600">Si tens més preguntes pots contactar amb mi <a class="link" href="/ca/contacta/">des d'aquí.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>

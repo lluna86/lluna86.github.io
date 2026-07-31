@@ -2,6 +2,7 @@
 layout: ca/default
 title: Serveis psicològics
 permalink: /ca/serveis/
+metadescription: "Serveis de psicoteràpia individual, teràpia de parella, teràpia online, suport a la criança i assessoraments a Barcelona."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/servicios.webp')] w-full h-80 bg-cover bg-bottom flex justify-center items-center">
@@ -14,7 +15,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/nenufar.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/nenufar.webp" alt="Teràpia individual" width="1296" height="864" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4">
             <p class="text-justify">Busques resoldre problemes emocionals o personals que afecten la teva vida diària? Buscar suport per gestionar les teves emocions, voler millorar el teu benestar mental i assolir un major equilibri en la teva vida són mostra de valentia i desig de creixement personal.</p>
@@ -30,7 +31,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 mb-2">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/jarros.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/jarros.webp" alt="Teràpia de parella" width="4500" height="3000" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
             <p class="text-justify">Sents que alguna cosa no va bé en la teva relació de parella? Teniu les mateixes discussions una i altra vegada sense aconseguir sortir del cercle negatiu? Estàs cansat/da d'intentar canvis en la teva relació de parella sense èxit? Permet-me ajudar-te a sortir del bucle i trobar solucions.</p>
@@ -46,7 +47,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/macbook.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/macbook.webp" alt="Teràpia online" width="1148" height="862" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
             <p class="text-justify">Has considerat la possibilitat de rebre sessions de psicologia online? Ja sigui per la comoditat d'estar a casa, la flexibilitat que ofereix no haver-te de desplaçar, o la conveniència horària, la teràpia online s'ha convertit en una eina valuosa i útil per al treball psicològic.</p>
@@ -62,7 +63,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/flores-azules.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/flores-azules.webp" alt="Suport a la criança" width="1800" height="1200" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
             <p class="w-full">No saps com jugar o relacionar-te amb el teu fill/a? Sents que els conflictes a casa són freqüents? Et preocupa algun aspecte en concret que afecta la vostra relació familiar? La teràpia de suport a la criança ofereix orientació i recursos per abordar les teves preocupacions com a progenitor. Obté eines pràctiques i estratègies efectives per enfortir el vincle amb els teus fills i millorar l'ambient familiar.</p>
@@ -78,7 +79,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-6 mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/planta-interior.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/planta-interior.webp" alt="Suport a familiars d'infants amb necessitats especials" width="2755" height="2069" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
             <p class="w-full">El teu fill o la teva filla té necessitats especials i necessites ajuda? No saps com ajudar-lo/la? Obté eines específiques i estratègies adaptades per abordar els desafiaments únics als quals us enfronteu com a família.</p>
@@ -94,7 +95,7 @@ permalink: /ca/serveis/
     <hr class="w-16 h-1 mx-auto bg-planta-clar border-0 rounded mt-4 sm:mt-8 mb-2 sm:mb-4">
     <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/4 px-4 mb-4 sm:mb-0">
-            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/plantas.webp">
+            <img class="object-cover h-32 w-full rounded-xl" src="/assets/images/plantas.webp" alt="Assessoraments i tallers" width="1528" height="1019" loading="lazy" decoding="async">
         </div>
         <div class="w-full sm:w-3/4 px-4 text-justify">
             <p class="w-full">Estàs buscant assessorament per part d'un psicòleg per a la teva llar d'infants o escola? Voldries muntar un taller per a mares i pares sobre alguna temàtica relacionada amb la psicologia? Permet-me oferir-te idees i opcions per aconseguir el que estàs buscant.</p>

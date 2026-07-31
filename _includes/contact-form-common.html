@@ -1,0 +1,42 @@
+{% assign lang = include.lang | default: page.lang | default: "es" %}
+{% if lang == "ca" %}
+  {% assign message_label = "Missatge" %}
+  {% assign message_placeholder = "Escriu el teu missatge" %}
+  {% assign terms_text = "He llegit i accepto" %}
+  {% assign terms_link = "les condicions d'ús" %}
+  {% assign legal_url = "/ca/legal/" %}
+  {% assign submit_text = "Enviar" %}
+{% elsif lang == "en" %}
+  {% assign message_label = "Message" %}
+  {% assign message_placeholder = "Write your message" %}
+  {% assign terms_text = "I've read and I agree with the" %}
+  {% assign terms_link = "terms and conditions" %}
+  {% assign legal_url = "/en/legal/" %}
+  {% assign submit_text = "Send" %}
+{% else %}
+  {% assign message_label = "Mensaje" %}
+  {% assign message_placeholder = "Escribe tu mensaje" %}
+  {% assign terms_text = "He leído y acepto los" %}
+  {% assign terms_link = "términos y condiciones" %}
+  {% assign legal_url = "/legal/" %}
+  {% assign submit_text = "Enviar" %}
+{% endif %}
+
+<form action="https://formspree.io/f/xqkoazln" method="POST" class="space-y-4">
+    <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off">
+    <div>
+        <label for="email-{{ lang }}" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
+        <input type="email" name="email" id="email-{{ lang }}" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2" placeholder="email@email.com" required>
+    </div>
+    <div class="sm:col-span-2">
+        <label for="message-{{ lang }}" class="block mb-2 text-sm font-medium text-gray-900">{{ message_label }}</label>
+        <textarea id="message-{{ lang }}" name="message" rows="6" class="block p-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="{{ message_placeholder }}" required></textarea>
+    </div>
+    <div class="flex items-start">
+        <div class="flex items-center h-5">
+            <input id="terms-{{ lang }}" name="terms" type="checkbox" class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-primary-500 focus:ring-2" required>
+        </div>
+        <label for="terms-{{ lang }}" class="ml-2 text-sm font-medium text-gray-900">{{ terms_text }} <a href="{{ legal_url }}" class="text-planta hover:underline hover:text-planta-fosc">{{ terms_link }}</a>.</label>
+    </div>
+    <button type="submit" class="mt-4 px-6 py-2 text-xl text-white bg-planta hover:bg-planta-fosc rounded">{{ submit_text }}</button>
+</form>

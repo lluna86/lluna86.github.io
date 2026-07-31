@@ -20,7 +20,7 @@ metadescription: "A través dels meus anys de formació vaig descobrir que el qu
             <p class="font-bold text-terros text-center text-lg pt-4"><b>Considero un privilegi acompanyar a les persones amb les que treballo.</b></p>
         </div>
         <div class="w-full lg:w-1/3 px-4 flex flex-col justify-center items-center lg:items-end">
-            <img class="" src="/assets/images/bertafull.webp" alt="Imatge de Berta">
+            <img class="" src="/assets/images/bertafull.webp" alt="Imatge de Berta" width="672" height="1008" loading="lazy" decoding="async">
         </div>
     </div>
     <div class="py-8 lg:px-64 xxl:px-64">
@@ -33,23 +33,23 @@ metadescription: "A través dels meus anys de formació vaig descobrir que el qu
         </div>
         <div class="flex flex-wrap justify-center items-center pt-8">
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.webp" alt="Universitat de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/ub.webp" alt="Universitat de Barcelona" width="984" height="250" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.webp" alt="Universitat Autònoma de Barcelona">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uab.webp" alt="Universitat Autònoma de Barcelona" width="1000" height="600" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.webp" alt="Universitat Ramon Llull">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/urll.webp" alt="Universitat Ramon Llull" width="630" height="320" loading="lazy" decoding="async">
         </div>
         <div class="w-1/2 sm:w-1/4 px-4 flex justify-center">
-            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.webp" alt="Centre Dendros">
+            <img class="w-40 h-auto object-contain" src="/assets/images/logos/uc.webp" alt="Centre Dendros" width="6046" height="2044" loading="lazy" decoding="async">
         </div>
     </div>
     </div>
     <div class="pt-12 bg-planta-light flex flex-wrap pb-12 lg:px-64 xxl:px-64">
         <h2 class="text-3xl text-center w-full">Enfocament</h2>
         <div class="flex flex-wrap">
-            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.webp" alt="Enfocament" style="aspect-ratio: 1 / 1;">
+            <img class="mx-auto lg:mx-0 w-3/4 lg:w-1/4 h-auto lg:h-auto object-cover lg:object-contain py-4 lg:py-0 lg:pr-4" src="/assets/images/enfoque.webp" alt="Enfocament" width="1591" height="2386" loading="lazy" decoding="async" style="aspect-ratio: 1 / 1;">
             <div class="w-full lg:w-3/4 sm:pl-4 text-justify px-8 lg:pl-8">
                 <p>La meva formació inicial es va centrar en la <b>Teràpia Cognitiu-Conductual</b>, reconeguda per la seva eficàcia en el tractament de trastorns com l'ansietat i l'estat d'ànim. En la meva pràctica actual, em guio per la <b>Teràpia Integradora</b>, combinant diverses tècniques terapèutiques adaptades a les necessitats úniques de cada persona.</p>
                 <p>Entenc les sessions de psicologia com un procés de <b>facilitació del canvi i el creixement personal</b>, on es considera la totalitat de la persona (emocions, pensaments, cos, història de vida, etc.) i no només s'atén la crisi o situació actual que ha propiciat la consulta.</p>

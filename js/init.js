@@ -1,9 +1,16 @@
-  $(document).ready(function(){
-    $('#nav-toggle').on("click", function() {
-      $('#nav-menu-mobile')[0].classList.toggle('hidden');
-      $('#hamburger')[0].classList.toggle('hidden');
-      $('#cross')[0].classList.toggle('hidden');
-    });  
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('nav-menu-mobile');
+    const hamburger = document.getElementById('hamburger');
+    const cross = document.getElementById('cross');
+
+    if (navToggle && mobileMenu && hamburger && cross) {
+      navToggle.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
+        hamburger.classList.toggle('hidden');
+        cross.classList.toggle('hidden');
+      });
+    }
   });
 
   function toggleFaq(button) {

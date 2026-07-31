@@ -1,6 +1,7 @@
 ---
 layout: en/default
 permalink: /en/faq/
+title: "FAQ"
 metadescription: "Resolution to frequently asked questions and contact information in case there are other specific questions."
 ---
 <div class="flex flex-wrap">
@@ -83,7 +84,7 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">If you are interested in starting psychology sessions with me, you can request a free 20-minute phone call through <a class="link" href="/contacta">any contact method.</a></p>
+                <p class="text-gray-600">If you are interested in starting psychology sessions with me, you can request a free 20-minute phone call through <a class="link" href="/en/contact/">any contact method.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>
@@ -93,7 +94,7 @@ metadescription: "Resolution to frequently asked questions and contact informati
 	      		<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
 	    	</button>
 	    	<div class="text-justify faq-answer overflow-hidden max-h-0 transition-max-height duration-700 ease-in-out">
-	      		<p class="text-gray-600">If you have more questions, you can send me an email at psicologia@bertasanfeliu.com or fill out the <a class="link" href="/contacta">following form.</a></p>
+                <p class="text-gray-600">If you have more questions, you can send me an email at psicologia@bertasanfeliu.com or fill out the <a class="link" href="/en/contact/">following form.</a></p>
 	    	</div>
 	  	</div>
 	  	<hr>

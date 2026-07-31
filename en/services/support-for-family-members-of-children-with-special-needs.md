@@ -1,5 +1,6 @@
 ---
 layout: en/default
+title: "Support for family members of children with special needs"
 permalink: /en/services/support-for-family-members-of-children-with-special-needs/
 metadescription: "Sessions with specific tools and strategies tailored to the needs of the child facing a diagnosis of special needs."
 ---

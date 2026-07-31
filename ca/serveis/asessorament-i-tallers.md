@@ -2,6 +2,7 @@
 layout: ca/default
 permalink: ca/serveis/assessorament-i-tallers/
 title: "Assessorament i tallers"
+metadescription: "Assessorament psicològic per a escoles, docents, mares i pares, i tallers adaptats a necessitats educatives o familiars."
 ---
 <div class="flex flex-wrap">
     <div class="bg-[url('/assets/images/plantas.webp')] w-full h-80 bg-cover bg-center flex justify-center items-center">
