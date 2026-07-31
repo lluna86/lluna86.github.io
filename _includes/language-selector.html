@@ -1,0 +1,25 @@
+{% assign current_lang = include.lang | default: page.lang | default: "es" %}
+{% assign current_url = page.url %}
+{% assign current_route = nil %}
+{% assign languages = "es,ca,en" | split: "," %}
+
+{% for route in site.data.language_routes %}
+  {% if route.es == current_url or route.ca == current_url or route.en == current_url %}
+    {% assign current_route = route %}
+  {% endif %}
+{% endfor %}
+
+{% unless current_route %}
+  {% assign current_route = site.data.language_routes[0] %}
+{% endunless %}
+
+<div class="{{ include.class }}">
+  {% assign rendered = 0 %}
+  {% for lang in languages %}
+    {% unless lang == current_lang %}
+      {% if rendered > 0 %} | {% endif %}
+      <a href="{{ current_route[lang] }}" class="">{{ lang | upcase }}</a>
+      {% assign rendered = rendered | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+</div>

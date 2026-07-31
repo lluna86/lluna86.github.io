@@ -5,7 +5,7 @@
       <div class="flex items-center">
         <div class="text-gray-700 flex flex-col">
           <a href="/" class="font-bold text-2xl">Berta Sanfeliu</a>
-          <a href="/" class="font-bold text-xs">Psychologist and Psychotherapist</a>
+          <a href="/" class="font-bold text-xs">Psicòloga i psicoterapeuta</a>
         </div>
       </div>
 
@@ -21,9 +21,7 @@
       <!-- Right -->
       <div class="flex items-center">
         <!-- Language Selector -->
-        <div class="hidden sm:block ml-4 text-center bg-gray-300 font-bold text-white text-xs sm:py-1 sm:px-1 rounded">
-          <a href="/" class="">ES</a> | <a href="/en" class="">EN</a>
-        </div>
+        {% include language-selector.html lang="ca" class="hidden sm:block ml-4 text-center bg-gray-300 font-bold text-white text-xs sm:py-1 sm:px-1 rounded" %}
 
         <!-- Hamburger -->
         <div class="sm:hidden ml-2">
@@ -44,9 +42,7 @@
       <a class="block text-center py-2" href="/ca/serveis">Serveis</a>
       <a class="block text-center py-2" href="/ca/informacio-util">Informació útil</a>
       <a class="block text-center py-2" href="/ca/contacta/">Contacta</a>
-      <div class="py-1 px-1 my-4 text-center bg-gray-300 font-bold text-white text-xs rounded">
-          <a href="/" class="">ES</a> | <a href="/en" class="">EN</a>
-        </div>
+      {% include language-selector.html lang="ca" class="py-1 px-1 my-4 text-center bg-gray-300 font-bold text-white text-xs rounded" %}
     </div>
   </nav>
 </header>

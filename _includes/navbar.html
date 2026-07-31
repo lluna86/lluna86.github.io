@@ -21,9 +21,7 @@
       <!-- Right -->
       <div class="flex items-center">
         <!-- Language Selector -->
-        <div class="hidden sm:block ml-4 text-center bg-gray-300 font-bold text-white text-xs sm:py-1 sm:px-1 rounded">
-          <a href="/en" class="">EN</a> | <a href="/ca" class="">CA</a>
-        </div>
+        {% include language-selector.html lang="es" class="hidden sm:block ml-4 text-center bg-gray-300 font-bold text-white text-xs sm:py-1 sm:px-1 rounded" %}
 
         <!-- Hamburger -->
         <div class="sm:hidden ml-2">
@@ -44,12 +42,9 @@
       <a class="block text-center py-2" href="/servicios">Servicios</a>
       <a class="block text-center py-2" href="/informacion-util">Información útil</a>
       <a class="block text-center py-2" href="/contacta/">Contacta</a>
-      <div class="py-1 px-1 my-4 text-center bg-gray-300 font-bold text-white text-xs rounded">
-          <a href="/en" class="">EN</a> | <a href="/ca" class="">CA</a>
-        </div>
+      {% include language-selector.html lang="es" class="py-1 px-1 my-4 text-center bg-gray-300 font-bold text-white text-xs rounded" %}
     </div>
   </nav>
 </header>
-
 
 
